@@ -16,7 +16,17 @@ function showRiddle() {
 
   document.querySelector('.prev').disabled = current === 0;
   document.querySelector('.next').disabled = current === riddles.length - 1;
+
+  // ✅ Progress text
+  document.getElementById('progressText').textContent =
+    `Riddle ${current + 1} of ${riddles.length}`;
+
+  // ✅ Progress bar
+  const percent = ((current + 1) / riddles.length) * 100;
+  document.getElementById('progressFill').style.width = percent + '%';
 }
+
+
 
 function nextRiddle() {
   if (current < riddles.length - 1) {
