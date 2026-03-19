@@ -18,30 +18,25 @@
     </div>
 
 
-    <div class="progress-text" id="progressText">Riddle 1 of 60</div>
-<div class="progress-bar">
-  <div class="progress-fill" id="progressFill"></div>
+<div class="riddle-label">Brain Teaser</div>
+
+<h2 class="riddle-question">Loading...</h2>
+
+<div class="action-row">
+  <button class="answer-btn" onclick="toggleAnswer()">Show Answer</button>
+  <button class="share-btn" onclick="shareRiddle()">🔗 Share Riddle</button>
 </div>
 
-    
-    <div class="riddle-card">
-      <div class="riddle-label">Riddle #1</div>
-      <h2 class="riddle-question">
-        What has hands but cannot clap?
-      </h2>
+<div class="answer-box" id="answerBox"></div>
 
-      <button class="answer-btn" onclick="toggleAnswer()">Show Answer</button>
-
-      <div class="answer-box" id="answerBox">
-        A clock.
-      </div>
-    </div>
-
-  <div class="nav-row modern-nav">
+<div class="nav-row modern-nav">
   <button class="nav-btn prev" onclick="prevRiddle()">← <span>Previous</span></button>
   <button class="nav-btn shuffle modern-shuffle" onclick="shuffleRiddle()">🎲 <span>Random</span></button>
   <button class="nav-btn next" onclick="nextRiddle()"><span>Next</span> →</button>
 </div>
+
+<div class="share-status" id="shareStatus"></div>
+
 
     
   </div>
