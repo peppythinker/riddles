@@ -1,22 +1,67 @@
 [
-  {
-    "question": "What has hands but cannot clap?",
-    "answer": "A clock."
-  },
-  {
-    "question": "What has a head, a tail, but no body?",
-    "answer": "A coin."
-  },
-  {
-    "question": "The more you take, the more you leave behind. What am I?",
-    "answer": "Footsteps."
-  },
-  {
-    "question": "What gets wetter the more it dries?",
-    "answer": "A towel."
-  },
-  {
-    "question": "I speak without a mouth and hear without ears. What am I?",
-    "answer": "An echo."
-  }
+  {"question":"What has hands but cannot clap?","answer":"A clock."},
+  {"question":"What has a head, a tail, but no body?","answer":"A coin."},
+  {"question":"The more you take, the more you leave behind. What am I?","answer":"Footsteps."},
+  {"question":"What gets wetter the more it dries?","answer":"A towel."},
+  {"question":"I speak without a mouth and hear without ears. What am I?","answer":"An echo."},
+  {"question":"What has to be broken before you can use it?","answer":"An egg."},
+  {"question":"What goes up but never comes down?","answer":"Your age."},
+  {"question":"What has one eye but cannot see?","answer":"A needle."},
+  {"question":"What is full of holes but still holds water?","answer":"A sponge."},
+  {"question":"What can travel around the world while staying in one spot?","answer":"A stamp."},
+
+  {"question":"What has keys but can't open locks?","answer":"A piano."},
+  {"question":"What has a neck but no head?","answer":"A bottle."},
+  {"question":"What can you catch but not throw?","answer":"A cold."},
+  {"question":"What begins with T, ends with T, and has T in it?","answer":"A teapot."},
+  {"question":"What has legs but doesn’t walk?","answer":"A table."},
+  {"question":"What runs but never walks?","answer":"Water."},
+  {"question":"What has ears but cannot hear?","answer":"Corn."},
+  {"question":"What has a face and two hands but no arms or legs?","answer":"A clock."},
+  {"question":"What comes once in a minute, twice in a moment, but never in a thousand years?","answer":"The letter M."},
+  {"question":"What is always in front of you but can’t be seen?","answer":"The future."},
+
+  {"question":"What has many teeth but can’t bite?","answer":"A comb."},
+  {"question":"What is so light that even the strongest person can’t hold it for long?","answer":"Your breath."},
+  {"question":"What has a ring but no finger?","answer":"A phone."},
+  {"question":"What kind of band never plays music?","answer":"A rubber band."},
+  {"question":"What has a bottom at the top?","answer":"Your legs."},
+  {"question":"What can fill a room but takes up no space?","answer":"Light."},
+  {"question":"What gets bigger the more you take away?","answer":"A hole."},
+  {"question":"What has an eye but cannot see?","answer":"A needle."},
+  {"question":"What has a bark but no bite?","answer":"A tree."},
+  {"question":"What comes down but never goes up?","answer":"Rain."},
+
+  {"question":"What can you break, even if you never pick it up or touch it?","answer":"A promise."},
+  {"question":"What is always running but never moves?","answer":"Time."},
+  {"question":"What has words but never speaks?","answer":"A book."},
+  {"question":"What has a thumb and four fingers but is not alive?","answer":"A glove."},
+  {"question":"What can you keep after giving it to someone?","answer":"Your word."},
+  {"question":"What gets sharper the more you use it?","answer":"Your brain."},
+  {"question":"What has a tail but no body?","answer":"A coin."},
+  {"question":"What kind of coat is always wet when you put it on?","answer":"A coat of paint."},
+  {"question":"What is easy to lift but hard to throw?","answer":"A feather."},
+  {"question":"What has four wheels and flies?","answer":"A garbage truck."},
+
+  {"question":"What goes up and down but never moves?","answer":"Stairs."},
+  {"question":"What can’t talk but will reply when spoken to?","answer":"An echo."},
+  {"question":"What has a bed but never sleeps?","answer":"A river."},
+  {"question":"What has a heart that doesn’t beat?","answer":"An artichoke."},
+  {"question":"What can you hold in your right hand but not your left?","answer":"Your left hand."},
+  {"question":"What kind of tree can you carry in your hand?","answer":"A palm."},
+  {"question":"What has one head, one foot, and four legs?","answer":"A bed."},
+  {"question":"What has an end but no beginning?","answer":"A stick."},
+  {"question":"What has a tongue but cannot taste?","answer":"A shoe."},
+  {"question":"What can run but never walks, has a mouth but never talks?","answer":"A river."},
+
+  {"question":"What gets shorter as it grows older?","answer":"A candle."},
+  {"question":"What is always coming but never arrives?","answer":"Tomorrow."},
+  {"question":"What has a spine but no bones?","answer":"A book."},
+  {"question":"What has a face but no eyes, mouth, or nose?","answer":"A clock."},
+  {"question":"What can you see once in a year, twice in a week, but never in a day?","answer":"The letter E."},
+  {"question":"What has an endless supply of letters but starts empty?","answer":"A mailbox."},
+  {"question":"What begins with an E but only contains one letter?","answer":"An envelope."},
+  {"question":"What has no life but can die?","answer":"A battery."},
+  {"question":"What is always hungry and must always be fed?","answer":"Fire."},
+  {"question":"What disappears as soon as you say its name?","answer":"Silence."}
 ]
