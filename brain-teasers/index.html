@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brain Teasers | Riddle World</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css?v=2">
+  <link rel="stylesheet" href="../style.css?v=3">
 </head>
 <body>
   <div class="container page-container">
@@ -17,28 +17,28 @@
       <p class="subtitle">Clever riddles to make you stop and think</p>
     </div>
 
-<h2 class="riddle-question">Loading...</h2>
+    <div class="riddle-card">
+      <div class="riddle-label" id="riddleLabel">Brain Teaser</div>
 
-<div class="action-row">
-  <button class="answer-btn" onclick="toggleAnswer()">Show Answer</button>
-  <button class="share-btn" onclick="shareRiddle()">🔗 Share Riddle</button>
-</div>
+      <h2 class="riddle-question">Loading...</h2>
 
-<div class="answer-box" id="answerBox"></div>
+      <div class="action-row">
+        <button class="answer-btn" onclick="toggleAnswer()">Show Answer</button>
+        <button class="share-btn" onclick="shareRiddle()">🔗 Share Riddle</button>
+      </div>
 
-<div class="nav-row modern-nav">
-  <button class="nav-btn prev" onclick="prevRiddle()">← <span>Previous</span></button>
-  <button class="nav-btn shuffle modern-shuffle" onclick="shuffleRiddle()">🎲 <span>Random</span></button>
-  <button class="nav-btn next" onclick="nextRiddle()"><span>Next</span> →</button>
-</div>
+      <div class="answer-box" id="answerBox"></div>
 
-<div class="share-status" id="shareStatus"></div>
+      <div class="nav-row modern-nav">
+        <button class="nav-btn prev" onclick="prevRiddle()">← <span>Previous</span></button>
+        <button class="nav-btn shuffle modern-shuffle" onclick="shuffleRiddle()">🎲 <span>Random</span></button>
+        <button class="nav-btn next" onclick="nextRiddle()"><span>Next</span> →</button>
+      </div>
 
-
-    
+      <div class="share-status" id="shareStatus"></div>
+    </div>
   </div>
 
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
