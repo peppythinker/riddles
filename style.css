@@ -113,36 +113,21 @@ footer {
   margin-bottom: 14px;
 }
 
-.progress-text {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-.progress-bar {
-  width: 100%;
-  height: 8px;
-  background: #eee;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.progress-fill {
-  height: 100%;
-  width: 0%;
-  background: #222;
-  transition: width 0.3s ease;
-}
-
 .riddle-question {
   font-size: 30px;
   line-height: 1.35;
   margin: 0 0 28px;
 }
 
+.action-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .answer-btn,
+.share-btn,
 .nav-btn {
   border: none;
   border-radius: 14px;
@@ -160,7 +145,14 @@ footer {
   color: white;
 }
 
-.answer-btn:hover {
+.share-btn {
+  background: #f1f3f7;
+  color: #333;
+}
+
+.answer-btn:hover,
+.share-btn:hover,
+.nav-btn:hover:not(:disabled) {
   transform: translateY(-2px);
 }
 
@@ -203,20 +195,17 @@ footer {
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.14);
 }
 
-.nav-btn:hover:not(:disabled) {
-  transform: translateY(-2px);
-}
-
 .nav-btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;
   transform: none;
 }
 
-@media (max-width: 900px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.share-status {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #777;
+  min-height: 20px;
 }
 
 @media (max-width: 640px) {
@@ -233,23 +222,20 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  h1 {
-    font-size: 34px;
-  }
-
-  .subtitle {
-    font-size: 16px;
-  }
-
   .riddle-question {
     font-size: 24px;
   }
 
   .riddle-card {
     padding: 28px 20px;
+  }
+
+  .action-row {
+    flex-direction: column;
+  }
+
+  .answer-btn,
+  .share-btn {
+    width: 100%;
   }
 }
