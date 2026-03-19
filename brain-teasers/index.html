@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brain Teasers | Riddle World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css?v=2">
+</head>
+<body>
+  <div class="container page-container">
+    <a href="../index.html" class="back-link">← Back to Categories</a>
 
+    <div class="page-header">
+      <div class="page-emoji">🧠</div>
+      <h1>Brain Teasers</h1>
+      <p class="subtitle">Clever riddles to make you stop and think</p>
+    </div>
+
+    <div class="riddle-card">
+      <div class="riddle-label">Riddle #1</div>
+      <h2 class="riddle-question">
+        What has hands but cannot clap?
+      </h2>
+
+      <button class="answer-btn" onclick="toggleAnswer()">Show Answer</button>
+
+      <div class="answer-box" id="answerBox">
+        A clock.
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button class="nav-btn" disabled>← Previous</button>
+      <button class="nav-btn" disabled>Next →</button>
+    </div>
+  </div>
+
+  <script>
+    function toggleAnswer() {
+      const answerBox = document.getElementById('answerBox');
+      const button = document.querySelector('.answer-btn');
+
+      if (answerBox.style.display === 'block') {
+        answerBox.style.display = 'none';
+        button.textContent = 'Show Answer';
+      } else {
+        answerBox.style.display = 'block';
+        button.textContent = 'Hide Answer';
+      }
+    }
+  </script>
+</body>
+</html>
