@@ -58,7 +58,7 @@ function showRiddle() {
   answerBox.style.display = 'none';
   answerBtn.textContent = 'Show Answer';
   shareStatus.textContent = '';
-  label.textContent = `Brain Teaser #${current + 1}`;
+  label.textContent = `Everyday Riddle #${current + 1}`;
 
   prevBtn.disabled = current === 0;
   nextBtn.disabled = current === riddles.length - 1;
@@ -113,7 +113,7 @@ async function shareRiddle() {
   shareUrl.searchParams.set('r', current + 1);
 
   const shareData = {
-    title: `Brain Teaser #${current + 1} | Riddle World`,
+    title: `Everyday Riddle #${current + 1} | Riddle World`,
     text: riddles[current].question,
     url: shareUrl.toString()
   };
