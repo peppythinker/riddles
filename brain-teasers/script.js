@@ -27,6 +27,14 @@ function showRiddle() {
 }
 
 
+function shuffleRiddle() {
+  const randomIndex = Math.floor(Math.random() * riddles.length);
+  current = randomIndex;
+  showRiddle();
+}
+
+
+
 
 function nextRiddle() {
   if (current < riddles.length - 1) {
