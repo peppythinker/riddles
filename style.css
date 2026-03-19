@@ -120,9 +120,8 @@ footer {
 }
 
 .riddle-question {
-  font-size: 24px;
-  line-height: 1.4;
-  margin: 0 0 28px;
+  font-size: clamp(20px, 2.5vw, 26px);
+  line-height: 1.5;
 }
 
 .action-row {
@@ -229,7 +228,7 @@ footer {
 
 @media (max-width: 600px) {
   .riddle-question {
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .riddle-card {
