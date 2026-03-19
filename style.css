@@ -88,3 +88,119 @@ footer {
     font-size: 16px;
   }
 }
+
+
+
+
+
+/* brain-teasers */
+
+
+.page-container {
+  max-width: 760px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  text-decoration: none;
+  color: #666;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  color: #222;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.page-emoji {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.riddle-card {
+  background: white;
+  border-radius: 20px;
+  padding: 36px 28px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.06);
+}
+
+.riddle-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #888;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.riddle-question {
+  font-size: 30px;
+  line-height: 1.35;
+  margin: 0 0 28px;
+}
+
+.answer-btn,
+.nav-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.answer-btn {
+  background: #222;
+  color: white;
+}
+
+.answer-btn:hover {
+  transform: translateY(-2px);
+}
+
+.answer-box {
+  display: none;
+  margin-top: 22px;
+  padding: 18px 20px;
+  background: #f4f6fa;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.nav-btn {
+  background: white;
+  color: #333;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.nav-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .riddle-question {
+    font-size: 24px;
+  }
+
+  .riddle-card {
+    padding: 28px 20px;
+  }
+}
+
+
