@@ -3,63 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riddles for Kids & Family</title>
 
-  <title>Fun Riddles for Kids & Families | Free Brain Teasers</title>
-  <meta name="description" content="Fun riddles for kids and families. Easy, funny, and brain teaser riddles you can play instantly. No signup needed.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f7f8fb;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      color: #666;
+      margin-bottom: 40px;
+      font-size: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      transition: all 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+    }
+
+    .emoji {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+
+    .desc {
+      font-size: 14px;
+      color: #777;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 13px;
+      color: #aaa;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="page">
+  <div class="container">
+    <h1>🧩 Riddle World</h1>
+    <p class="subtitle">Fun riddles for kids, families, and curious minds</p>
 
-    <!-- HERO -->
-    <header class="hero">
-      <h1>Fun Riddles for Kids & Families</h1>
-      <p class="subtitle">Quick brain teasers to make you think, laugh, and guess!</p>
-    </header>
+    <div class="grid">
 
-    <!-- CATEGORIES -->
-    <section class="categories">
-      <h2>Pick a Category</h2>
+      <a href="brain-teasers/index.html" class="card">
+        <div class="emoji">🧠</div>
+        <div class="title">Brain Teasers</div>
+        <div class="desc">Sharpen your thinking skills</div>
+      </a>
 
-      <div class="category-grid">
-        <a href="animal-riddles/" class="category-card">🐶 Animal Riddles</a>
-        <a href="funny-riddles/" class="category-card">😂 Funny Riddles</a>
-        <a href="math-riddles/" class="category-card">🔢 Math Riddles</a>
-        <a href="easy-riddles/" class="category-card">🌟 Easy Riddles</a>
-        <a href="hard-riddles/" class="category-card">🧠 Hard Riddles</a>
-        <a href="holiday-riddles/" class="category-card">🎄 Holiday Riddles</a>
-      </div>
-    </section>
+      <a href="funny-riddles/index.html" class="card">
+        <div class="emoji">😂</div>
+        <div class="title">Silly & Funny</div>
+        <div class="desc">Laugh while you solve</div>
+      </a>
 
-    <!-- FEATURED -->
-    <section class="featured">
-      <h2>Try These Riddles</h2>
+      <a href="animal-riddles/index.html" class="card">
+        <div class="emoji">🐾</div>
+        <div class="title">Animal Riddles</div>
+        <div class="desc">Cute and clever creatures</div>
+      </a>
 
-      <div class="riddle-card">
-        <p class="question">
-          I have keys but no locks. I have space but no room. What am I?
-        </p>
+      <a href="math-riddles/index.html" class="card">
+        <div class="emoji">🔢</div>
+        <div class="title">Number & Math</div>
+        <div class="desc">Fun with numbers</div>
+      </a>
 
-        <button class="reveal-btn">Show Answer</button>
+      <a href="tricky-riddles/index.html" class="card">
+        <div class="emoji">🧩</div>
+        <div class="title">Tricky Riddles</div>
+        <div class="desc">Think twice before answering</div>
+      </a>
 
-        <p class="answer hidden">A keyboard</p>
-      </div>
+      <a href="everyday-riddles/index.html" class="card">
+        <div class="emoji">✨</div>
+        <div class="title">Everyday Riddles</div>
+        <div class="desc">Puzzles from daily life</div>
+      </a>
 
-      <div class="riddle-card">
-        <p class="question">
-          What has to be broken before you can use it?
-        </p>
+    </div>
 
-        <button class="reveal-btn">Show Answer</button>
-
-        <p class="answer hidden">An egg</p>
-      </div>
-    </section>
-
+    <footer>
+      © 2026 Riddle World • Made for fun 🧠✨
+    </footer>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
