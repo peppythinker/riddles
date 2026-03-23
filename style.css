@@ -120,8 +120,8 @@ footer {
 }
 
 .riddle-question {
-  font-size: clamp(20px, 2.5vw, 26px);
-  line-height: 1.5;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  line-height: 1.6;
 }
 
 .action-row {
