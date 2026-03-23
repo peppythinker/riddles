@@ -1,242 +1,739 @@
 [
-  {"question":"Why did the math book look sad?","answer":"Because it had too many problems."},
-  {"question":"Why don’t skeletons fight each other?","answer":"They don’t have the guts."},
-  {"question":"What do you call cheese that isn’t yours?","answer":"Nacho cheese."},
-  {"question":"Why did the scarecrow win an award?","answer":"Because he was outstanding in his field."},
-  {"question":"Why can’t your nose be 12 inches long?","answer":"Because then it would be a foot."},
-  {"question":"What do you call fake spaghetti?","answer":"An impasta."},
-  {"question":"Why did the golfer bring two pairs of pants?","answer":"In case he got a hole in one."},
-  {"question":"What do you call a bear with no teeth?","answer":"A gummy bear."},
-  {"question":"Why did the banana go to the doctor?","answer":"Because it wasn’t peeling well."},
-  {"question":"What kind of tree fits in your hand?","answer":"A palm tree."},
-
-  {"question":"Why did the cookie go to the hospital?","answer":"Because it felt crummy."},
-  {"question":"What do you call a sleeping bull?","answer":"A bulldozer."},
-  {"question":"Why did the computer go to the doctor?","answer":"Because it had a virus."},
-  {"question":"What do you call a fish wearing a crown?","answer":"A king fish."},
-  {"question":"Why did the student eat his homework?","answer":"Because the teacher said it was a piece of cake."},
-  {"question":"What do you call a dinosaur with an extensive vocabulary?","answer":"A thesaurus."},
-  {"question":"Why did the bicycle fall over?","answer":"Because it was two-tired."},
-  {"question":"What do you call a boomerang that doesn’t come back?","answer":"A stick."},
-  {"question":"Why did the chicken join a band?","answer":"Because it had drumsticks."},
-  {"question":"What do you call a cow with no legs?","answer":"Ground beef."},
-
-  {"question":"Why don’t eggs tell jokes?","answer":"They’d crack each other up."},
-  {"question":"What do you call a pig that does karate?","answer":"A pork chop."},
-  {"question":"Why did the tomato turn red?","answer":"Because it saw the salad dressing."},
-  {"question":"What do you call a snowman with a six-pack?","answer":"An abdominal snowman."},
-  {"question":"Why did the coffee file a police report?","answer":"It got mugged."},
-  {"question":"What do you call a dog magician?","answer":"A labracadabrador."},
-  {"question":"Why did the music teacher go to jail?","answer":"Because she got caught with too many sharp notes."},
-  {"question":"What do you call an alligator in a vest?","answer":"An investigator."},
-  {"question":"Why don’t oysters share their pearls?","answer":"Because they’re shellfish."},
-  {"question":"What do you call a lazy kangaroo?","answer":"A pouch potato."},
-
-  {"question":"Why did the pencil break up with the paper?","answer":"Because it found someone sharper."},
-  {"question":"What do you call a duck that gets all A’s?","answer":"A wise quacker."},
-  {"question":"Why did the belt go to jail?","answer":"Because it held up a pair of pants."},
-  {"question":"What do you call a fish with no eyes?","answer":"Fsh."},
-  {"question":"Why did the clock get in trouble?","answer":"Because it tocked too much."},
-  {"question":"What do you call a can opener that doesn’t work?","answer":"A can’t opener."},
-  {"question":"Why did the picture go to jail?","answer":"Because it was framed."},
-  {"question":"What do you call a cow that plays an instrument?","answer":"A moo-sician."},
-  {"question":"Why did the orange stop?","answer":"Because it ran out of juice."},
-  {"question":"What do you call a funny mountain?","answer":"Hill-arious."}
-
-
-
-
-
-
-
-
-[
-  {"question":"Why did the dog sit in the shade?","answer":"Because he didn’t want to be a hot dog!"},
-  {"question":"What do you call a sleeping bull?","answer":"A bulldozer."},
-  {"question":"Why did the frog take the bus?","answer":"His car got toad."},
-  {"question":"What do you call a bear with no teeth?","answer":"A gummy bear."},
-  {"question":"Why don’t elephants use computers?","answer":"They’re afraid of the mouse."},
-
-  {"question":"Why did the banana go to the doctor?","answer":"Because it wasn’t peeling well."},
-  {"question":"What did one plate say to the other?","answer":"Lunch is on me."},
-  {"question":"Why did the cookie go to school?","answer":"Because it felt crumb-y."},
-  {"question":"Why did the tomato turn red?","answer":"Because it saw the salad dressing."},
-  {"question":"What kind of key opens a banana?","answer":"A monkey."},
-
-  {"question":"Why was the math book sad?","answer":"Because it had too many problems."},
-  {"question":"Why did the student eat homework?","answer":"Because it was a piece of cake."},
-  {"question":"Why did the pencil get a bad grade?","answer":"Because it had no point."},
-  {"question":"Why did the student bring a ladder?","answer":"To go to high school."},
-  {"question":"What’s a math teacher’s favorite place?","answer":"Times Square."},
-
-  {"question":"Why did the bicycle fall over?","answer":"Because it was two-tired."},
-  {"question":"What has one eye but can’t see?","answer":"A needle."},
-  {"question":"Why did the picture go to jail?","answer":"Because it was framed."},
-  {"question":"Why can’t your nose be 12 inches long?","answer":"Because then it would be a foot."},
-  {"question":"What has hands but can’t clap?","answer":"A clock."},
-
-  {"question":"What do you call cheese that isn’t yours?","answer":"Nacho cheese."},
-  {"question":"What do you call a fake noodle?","answer":"An impasta."},
-  {"question":"Why did the computer go to the doctor?","answer":"It had a virus."},
-  {"question":"What do clouds wear?","answer":"Thunderwear."},
-  {"question":"What do you call a snowman in summer?","answer":"A puddle."},
-
-  {"question":"Why don’t skeletons fight?","answer":"They don’t have the guts."},
-  {"question":"What did zero say to eight?","answer":"Nice belt."},
-  {"question":"Why did the calendar break up with the clock?","answer":"It needed more time."},
-  {"question":"Why was the computer cold?","answer":"It left its Windows open."},
-  {"question":"Why did the cookie cry?","answer":"Because its mom was a wafer too long."},
-
-  {"question":"What do you call a lazy kangaroo?","answer":"A pouch potato."},
-  {"question":"Why did the cow go to space?","answer":"To see the moooon."},
-  {"question":"What do you call a fish wearing a crown?","answer":"A king fish."},
-  {"question":"Why did the chicken join a band?","answer":"Because it had drumsticks."},
-  {"question":"Why did the duck cross the road?","answer":"To prove it wasn’t chicken."},
-
-  {"question":"What do you call a pig that does karate?","answer":"A pork chop."},
-  {"question":"Why did the sheep go to school?","answer":"To improve its baa-sics."},
-  {"question":"Why don’t oysters share?","answer":"Because they’re shellfish."},
-  {"question":"What do you call a cow with no legs?","answer":"Ground beef."},
-  {"question":"What do you call a dinosaur that sleeps?","answer":"A dino-snore."},
-
-  {"question":"Why did the grape stop rolling?","answer":"It ran out of juice."},
-  {"question":"What did the bread say?","answer":"I’m toast."},
-  {"question":"Why did the orange stop?","answer":"It ran out of peel."},
-  {"question":"What do you call a sad strawberry?","answer":"A blueberry."},
-  {"question":"Why did the apple stop?","answer":"Because it ran out of core-age."},
-
-  {"question":"Why did the teacher wear sunglasses?","answer":"Because her students were bright."},
-  {"question":"Why was the music class loud?","answer":"Too many sharp notes."},
-  {"question":"Why did the book go to school?","answer":"To get smarter."},
-  {"question":"Why was the classroom so quiet?","answer":"Because everyone was listening."},
-  {"question":"Why did the chalk break?","answer":"Too much pressure."},
-
-  {"question":"What do you call a belt made of watches?","answer":"A waist of time."},
-  {"question":"Why did the golfer bring extra pants?","answer":"In case he got a hole in one."},
-  {"question":"Why did the man run around his bed?","answer":"To catch up on sleep."},
-  {"question":"What do you call a boomerang that won’t come back?","answer":"A stick."},
-  {"question":"Why did the shoe go to school?","answer":"To become a smart sole."},
-
-  {"question":"What do you call a magic dog?","answer":"A labracadabrador."},
-  {"question":"Why did the cat sit on the computer?","answer":"To keep an eye on the mouse."},
-  {"question":"What do you call a cold dog?","answer":"A chili dog."},
-  {"question":"Why did the bird go to the hospital?","answer":"It needed tweetment."},
-  {"question":"Why did the owl invite friends?","answer":"It didn’t want to be owl by itself."},
-
-  {"question":"Why did the ice cream melt?","answer":"Because it was too cool."},
-  {"question":"Why did the candy go to school?","answer":"To be a smartie."},
-  {"question":"Why did the popcorn jump?","answer":"Because it was excited."},
-  {"question":"What do pancakes say?","answer":"Butter late than never."},
-  {"question":"Why did the egg hide?","answer":"Because it was a little chicken."},
-
-  {"question":"Why did the ruler get in trouble?","answer":"Because it measured up."},
-  {"question":"Why did the eraser feel bad?","answer":"Because it made mistakes disappear."},
-  {"question":"Why did the clock go to school?","answer":"To learn how to tell time."},
-  {"question":"Why did the backpack smile?","answer":"Because it was full of good stuff."},
-  {"question":"Why did the desk laugh?","answer":"Because it had a funny drawer."},
-
-  {"question":"Why did the sun go to school?","answer":"To get brighter."},
-  {"question":"Why did the moon skip dinner?","answer":"It was full."},
-  {"question":"Why did the star wink?","answer":"Because it was twinkling."},
-  {"question":"Why did the cloud stay home?","answer":"It felt under the weather."},
-  {"question":"Why did the rain stop?","answer":"It was tired of falling."},
-
-  {"question":"What do you call a fast snail?","answer":"A rocket snail."},
-  {"question":"Why did the turtle cross the road?","answer":"To get to the shell station."},
-  {"question":"Why did the monkey like bananas?","answer":"Because they had appeal."},
-  {"question":"Why did the horse talk?","answer":"Because it had a stable mind."},
-  {"question":"Why did the rabbit smile?","answer":"Because it was hoppy."},
-
-  {"question":"Why did the sandwich go to the gym?","answer":"To get toasted."},
-  {"question":"Why did the milk go to school?","answer":"To get cultured."},
-  {"question":"Why did the pizza laugh?","answer":"Because it was cheesy."},
-  {"question":"Why did the soup sing?","answer":"Because it had good broth."},
-  {"question":"Why did the butter run?","answer":"Because it was on a roll."},
-
-  {"question":"Why did the phone go to sleep?","answer":"Because it lost its charge."},
-  {"question":"Why did the computer smile?","answer":"Because it had good bytes."},
-  {"question":"Why did the keyboard rest?","answer":"Too many keys to handle."},
-  {"question":"Why did the screen blink?","answer":"Because it was tired."},
-  {"question":"Why did the mouse run?","answer":"Because it clicked."},
-
-  {"question":"Why did the door laugh?","answer":"Because it cracked up."},
-  {"question":"Why did the window sing?","answer":"Because it had a pane."},
-  {"question":"Why did the chair relax?","answer":"Because it needed a rest."},
-  {"question":"Why did the table smile?","answer":"Because it was well set."},
-  {"question":"Why did the bed yawn?","answer":"Because it was sleepy."},
-
-  {"question":"Why did the shoe laugh?","answer":"Because it was tied up."},
-  {"question":"Why did the hat smile?","answer":"Because it felt on top."},
-  {"question":"Why did the shirt dance?","answer":"Because it had style."},
-  {"question":"Why did the socks hide?","answer":"Because they were shy."},
-  {"question":"Why did the jacket run?","answer":"Because it was zipped."},
-
-  {"question":"Why did the kid bring string to school?","answer":"To tie up loose ends."},
-  {"question":"Why did the kid sit on homework?","answer":"To keep it from running away."},
-  {"question":"Why did the kid laugh at lunch?","answer":"Because it was funny food."},
-  {"question":"Why did the kid run home?","answer":"To catch up with time."},
-  {"question":"Why did the kid jump?","answer":"Because they felt happy."},
-
-  {"question":"Why did the joke go to school?","answer":"To get funnier."},
-  {"question":"Why did the laugh grow?","answer":"Because it was contagious."},
-  {"question":"Why did the smile shine?","answer":"Because it was bright."},
-  {"question":"Why did the giggle spread?","answer":"Because it was funny."},
-  {"question":"Why did the humor jump?","answer":"Because it was lively."},
-
-  {"question":"Knock knock. Who’s there? Boo. Boo who?","answer":"Don’t cry, it’s just a joke!"},
-  {"question":"Knock knock. Who’s there? Tank. Tank who?","answer":"You’re welcome!"},
-  {"question":"Knock knock. Who’s there? Olive. Olive who?","answer":"Olive you!"},
-  {"question":"Knock knock. Who’s there? Ice cream. Ice cream who?","answer":"Ice cream if you don’t open!"},
-  {"question":"Knock knock. Who’s there? Cow says. Cow says who?","answer":"No silly—cow says moo!"},
-
-  {"question":"What did one wall say to the other?","answer":"I’ll meet you at the corner."},
-  {"question":"Why did the stadium get hot?","answer":"Because all the fans left."},
-  {"question":"Why did the light bulb fail school?","answer":"Because it wasn’t bright enough."},
-  {"question":"Why did the road laugh?","answer":"Because it cracked up."},
-  {"question":"Why did the bell ring?","answer":"Because it had a good tone."},
-
-  {"question":"Why did the pencil go to the party?","answer":"Because it wanted to draw attention."},
-  {"question":"What do you call a dog magician?","answer":"A labracadabrador."},
-  {"question":"What do you call a funny mountain?","answer":"Hill-arious."},
-
-  {"question":"Why did the clock get kicked out?","answer":"Because it kept tocking back."},
-  {"question":"What do you call a smart duck?","answer":"A wise quacker."},
-  {"question":"Why did the bee go to school?","answer":"To improve its buzz-ness skills."},
-  {"question":"What do you call a cow that plays guitar?","answer":"A moo-sician."},
-  {"question":"Why did the rabbit go to the salon?","answer":"For a hare-cut."},
-  {"question":"Why did the sandwich blush?","answer":"Because it saw the salad dressing."},
-  {"question":"Why did the book sit in the sun?","answer":"To get a tan of knowledge."},
-  {"question":"Why did the teacher draw on the window?","answer":"Because she wanted the lesson to be clear."},
-  {"question":"What do you call a class full of cats?","answer":"A purr-fect class."},
-  {"question":"Why did the student bring glue?","answer":"To stick to the lesson."},
-  {"question":"Why did the ruler smile?","answer":"Because it measured up."},
-  {"question":"Why did the shoe sit down?","answer":"Because it was tired."},
-  {"question":"Why did the mirror laugh?","answer":"Because it saw something funny."},
-  {"question":"Why did the lamp feel proud?","answer":"Because it was bright."},
-  {"question":"Why did the door go to school?","answer":"To become well-educated."},
-  {"question":"Why did the pillow stay home?","answer":"Because it felt sleepy."},
-  {"question":"Why did the sock cross the road?","answer":"To find its pair."},
-  {"question":"Why did the hat go to school?","answer":"To get ahead."},
-  {"question":"Why did the jacket laugh?","answer":"Because it was zipped with joy."},
-  {"question":"Why did the shirt go to the party?","answer":"Because it had style."},
-  {"question":"Why did the shoes whisper?","answer":"Because they were sneakers."},
-
-  {"question":"Why did the sun bring sunglasses?","answer":"Because it was bright."},
-  {"question":"Why did the wind laugh?","answer":"Because it was blown away."},
-  {"question":"Why did the rainbow cheer?","answer":"Because it had all the colors."},
-
-  {"question":"Why did the dog sit by the fire?","answer":"Because it wanted to be a hot dog."},
-  {"question":"Why did the bird use a computer?","answer":"To tweet online."},
-  {"question":"Knock knock. Who’s there? Harry. Harry who?","answer":"Harry up and open the door!"},
-  {"question":"Knock knock. Who’s there? Banana. Banana who?","answer":"Banana split so I can come in!"},
-  {"question":"Knock knock. Who’s there? Leaf. Leaf who?","answer":"Leaf me alone!"},
-]
-
-
-
-  
-
-
-
-
-]
+  {
+    "id": "joke_001",
+    "question": "Why did the math book look sad?",
+    "answer": "Because it had too many problems."
+  },
+  {
+    "id": "joke_002",
+    "question": "Why don’t skeletons fight each other?",
+    "answer": "They don’t have the guts."
+  },
+  {
+    "id": "joke_003",
+    "question": "What do you call cheese that isn’t yours?",
+    "answer": "Nacho cheese."
+  },
+  {
+    "id": "joke_004",
+    "question": "Why did the scarecrow win an award?",
+    "answer": "Because he was outstanding in his field."
+  },
+  {
+    "id": "joke_005",
+    "question": "Why can’t your nose be 12 inches long?",
+    "answer": "Because then it would be a foot."
+  },
+  {
+    "id": "joke_006",
+    "question": "What do you call fake spaghetti?",
+    "answer": "An impasta."
+  },
+  {
+    "id": "joke_007",
+    "question": "Why did the golfer bring two pairs of pants?",
+    "answer": "In case he got a hole in one."
+  },
+  {
+    "id": "joke_008",
+    "question": "What do you call a bear with no teeth?",
+    "answer": "A gummy bear."
+  },
+  {
+    "id": "joke_009",
+    "question": "Why did the banana go to the doctor?",
+    "answer": "Because it wasn’t peeling well."
+  },
+  {
+    "id": "joke_010",
+    "question": "What kind of tree fits in your hand?",
+    "answer": "A palm tree."
+  },
+  {
+    "id": "joke_011",
+    "question": "Why did the cookie go to the hospital?",
+    "answer": "Because it felt crummy."
+  },
+  {
+    "id": "joke_012",
+    "question": "What do you call a sleeping bull?",
+    "answer": "A bulldozer."
+  },
+  {
+    "id": "joke_013",
+    "question": "Why did the computer go to the doctor?",
+    "answer": "Because it had a virus."
+  },
+  {
+    "id": "joke_014",
+    "question": "What do you call a fish wearing a crown?",
+    "answer": "A king fish."
+  },
+  {
+    "id": "joke_015",
+    "question": "Why did the student eat his homework?",
+    "answer": "Because the teacher said it was a piece of cake."
+  },
+  {
+    "id": "joke_016",
+    "question": "What do you call a dinosaur with an extensive vocabulary?",
+    "answer": "A thesaurus."
+  },
+  {
+    "id": "joke_017",
+    "question": "Why did the bicycle fall over?",
+    "answer": "Because it was two-tired."
+  },
+  {
+    "id": "joke_018",
+    "question": "What do you call a boomerang that doesn’t come back?",
+    "answer": "A stick."
+  },
+  {
+    "id": "joke_019",
+    "question": "Why did the chicken join a band?",
+    "answer": "Because it had drumsticks."
+  },
+  {
+    "id": "joke_020",
+    "question": "What do you call a cow with no legs?",
+    "answer": "Ground beef."
+  },
+  {
+    "id": "joke_021",
+    "question": "Why don’t eggs tell jokes?",
+    "answer": "They’d crack each other up."
+  },
+  {
+    "id": "joke_022",
+    "question": "What do you call a pig that does karate?",
+    "answer": "A pork chop."
+  },
+  {
+    "id": "joke_023",
+    "question": "Why did the tomato turn red?",
+    "answer": "Because it saw the salad dressing."
+  },
+  {
+    "id": "joke_024",
+    "question": "What do you call a snowman with a six-pack?",
+    "answer": "An abdominal snowman."
+  },
+  {
+    "id": "joke_025",
+    "question": "Why did the coffee file a police report?",
+    "answer": "It got mugged."
+  },
+  {
+    "id": "joke_026",
+    "question": "What do you call a dog magician?",
+    "answer": "A labracadabrador."
+  },
+  {
+    "id": "joke_027",
+    "question": "Why did the music teacher go to jail?",
+    "answer": "Because she got caught with too many sharp notes."
+  },
+  {
+    "id": "joke_028",
+    "question": "What do you call an alligator in a vest?",
+    "answer": "An investigator."
+  },
+  {
+    "id": "joke_029",
+    "question": "Why don’t oysters share their pearls?",
+    "answer": "Because they’re shellfish."
+  },
+  {
+    "id": "joke_030",
+    "question": "What do you call a lazy kangaroo?",
+    "answer": "A pouch potato."
+  },
+  {
+    "id": "joke_031",
+    "question": "Why did the pencil break up with the paper?",
+    "answer": "Because it found someone sharper."
+  },
+  {
+    "id": "joke_032",
+    "question": "What do you call a duck that gets all A’s?",
+    "answer": "A wise quacker."
+  },
+  {
+    "id": "joke_033",
+    "question": "Why did the belt go to jail?",
+    "answer": "Because it held up a pair of pants."
+  },
+  {
+    "id": "joke_034",
+    "question": "What do you call a fish with no eyes?",
+    "answer": "Fsh."
+  },
+  {
+    "id": "joke_035",
+    "question": "Why did the clock get in trouble?",
+    "answer": "Because it tocked too much."
+  },
+  {
+    "id": "joke_036",
+    "question": "What do you call a can opener that doesn’t work?",
+    "answer": "A can’t opener."
+  },
+  {
+    "id": "joke_037",
+    "question": "Why did the picture go to jail?",
+    "answer": "Because it was framed."
+  },
+  {
+    "id": "joke_038",
+    "question": "What do you call a cow that plays an instrument?",
+    "answer": "A moo-sician."
+  },
+  {
+    "id": "joke_039",
+    "question": "Why did the orange stop?",
+    "answer": "Because it ran out of juice."
+  },
+  {
+    "id": "joke_040",
+    "question": "What do you call a funny mountain?",
+    "answer": "Hill-arious."
+  },
+  {
+    "id": "joke_041",
+    "question": "Why did the dog sit in the shade?",
+    "answer": "Because he didn’t want to be a hot dog!"
+  },
+  {
+    "id": "joke_042",
+    "question": "Why did the frog take the bus?",
+    "answer": "His car got toad."
+  },
+  {
+    "id": "joke_043",
+    "question": "Why don’t elephants use computers?",
+    "answer": "They’re afraid of the mouse."
+  },
+  {
+    "id": "joke_044",
+    "question": "What did one plate say to the other?",
+    "answer": "Lunch is on me."
+  },
+  {
+    "id": "joke_045",
+    "question": "Why did the cookie go to school?",
+    "answer": "Because it felt crumby."
+  },
+  {
+    "id": "joke_046",
+    "question": "What kind of key opens a banana?",
+    "answer": "A monkey."
+  },
+  {
+    "id": "joke_047",
+    "question": "Why was the math book sad?",
+    "answer": "Because it had too many problems."
+  },
+  {
+    "id": "joke_048",
+    "question": "Why did the pencil get a bad grade?",
+    "answer": "Because it had no point."
+  },
+  {
+    "id": "joke_049",
+    "question": "Why did the student bring a ladder?",
+    "answer": "To go to high school."
+  },
+  {
+    "id": "joke_050",
+    "question": "What’s a math teacher’s favorite place?",
+    "answer": "Times Square."
+  },
+  {
+    "id": "joke_051",
+    "question": "What has one eye but can’t see?",
+    "answer": "A needle."
+  },
+  {
+    "id": "joke_052",
+    "question": "What has hands but can’t clap?",
+    "answer": "A clock."
+  },
+  {
+    "id": "joke_053",
+    "question": "What do you call a fake noodle?",
+    "answer": "An impasta."
+  },
+  {
+    "id": "joke_054",
+    "question": "What do clouds wear?",
+    "answer": "Thunderwear."
+  },
+  {
+    "id": "joke_055",
+    "question": "What do you call a snowman in summer?",
+    "answer": "A puddle."
+  },
+  {
+    "id": "joke_056",
+    "question": "Why don’t skeletons fight?",
+    "answer": "They don’t have the guts."
+  },
+  {
+    "id": "joke_057",
+    "question": "What did zero say to eight?",
+    "answer": "Nice belt."
+  },
+  {
+    "id": "joke_058",
+    "question": "Why did the calendar break up with the clock?",
+    "answer": "It needed more time."
+  },
+  {
+    "id": "joke_059",
+    "question": "Why was the computer cold?",
+    "answer": "It left its Windows open."
+  },
+  {
+    "id": "joke_060",
+    "question": "Why did the cookie cry?",
+    "answer": "Because its mom was a wafer too long."
+  },
+  {
+    "id": "joke_061",
+    "question": "Why did the cow go to space?",
+    "answer": "To see the moooon."
+  },
+  {
+    "id": "joke_062",
+    "question": "Why did the duck cross the road?",
+    "answer": "To prove it wasn’t chicken."
+  },
+  {
+    "id": "joke_063",
+    "question": "Why did the sheep go to school?",
+    "answer": "To improve its baa-sics."
+  },
+  {
+    "id": "joke_064",
+    "question": "Why don’t oysters share?",
+    "answer": "Because they’re shellfish."
+  },
+  {
+    "id": "joke_065",
+    "question": "What do you call a dinosaur that sleeps?",
+    "answer": "A dino-snore."
+  },
+  {
+    "id": "joke_066",
+    "question": "Why did the grape stop rolling?",
+    "answer": "It ran out of juice."
+  },
+  {
+    "id": "joke_067",
+    "question": "What did the bread say?",
+    "answer": "I’m toast."
+  },
+  {
+    "id": "joke_068",
+    "question": "What do you call a sad strawberry?",
+    "answer": "A blueberry."
+  },
+  {
+    "id": "joke_069",
+    "question": "Why did the apple stop?",
+    "answer": "Because it ran out of core-age."
+  },
+  {
+    "id": "joke_070",
+    "question": "Why did the teacher wear sunglasses?",
+    "answer": "Because her students were bright."
+  },
+  {
+    "id": "joke_071",
+    "question": "Why was the music class loud?",
+    "answer": "Too many sharp notes."
+  },
+  {
+    "id": "joke_072",
+    "question": "Why did the book go to school?",
+    "answer": "To get smarter."
+  },
+  {
+    "id": "joke_073",
+    "question": "Why was the classroom so quiet?",
+    "answer": "Because everyone was listening."
+  },
+  {
+    "id": "joke_074",
+    "question": "Why did the chalk break?",
+    "answer": "Too much pressure."
+  },
+  {
+    "id": "joke_075",
+    "question": "What do you call a belt made of watches?",
+    "answer": "A waist of time."
+  },
+  {
+    "id": "joke_076",
+    "question": "Why did the golfer bring extra pants?",
+    "answer": "In case he got a hole in one."
+  },
+  {
+    "id": "joke_077",
+    "question": "Why did the man run around his bed?",
+    "answer": "To catch up on sleep."
+  },
+  {
+    "id": "joke_078",
+    "question": "What do you call a boomerang that won’t come back?",
+    "answer": "A stick."
+  },
+  {
+    "id": "joke_079",
+    "question": "Why did the shoe go to school?",
+    "answer": "To become a smart sole."
+  },
+  {
+    "id": "joke_080",
+    "question": "What do you call a magic dog?",
+    "answer": "A labracadabrador."
+  },
+  {
+    "id": "joke_081",
+    "question": "Why did the cat sit on the computer?",
+    "answer": "To keep an eye on the mouse."
+  },
+  {
+    "id": "joke_082",
+    "question": "What do you call a cold dog?",
+    "answer": "A chili dog."
+  },
+  {
+    "id": "joke_083",
+    "question": "Why did the bird go to the hospital?",
+    "answer": "It needed tweetment."
+  },
+  {
+    "id": "joke_084",
+    "question": "Why did the owl invite friends?",
+    "answer": "It didn’t want to be owl by itself."
+  },
+  {
+    "id": "joke_085",
+    "question": "Why did the ice cream melt?",
+    "answer": "Because it was too cool."
+  },
+  {
+    "id": "joke_086",
+    "question": "Why did the candy go to school?",
+    "answer": "To be a smartie."
+  },
+  {
+    "id": "joke_087",
+    "question": "Why did the popcorn jump?",
+    "answer": "Because it was excited."
+  },
+  {
+    "id": "joke_088",
+    "question": "What do pancakes say?",
+    "answer": "Butter late than never."
+  },
+  {
+    "id": "joke_089",
+    "question": "Why did the egg hide?",
+    "answer": "Because it was a little chicken."
+  },
+  {
+    "id": "joke_090",
+    "question": "Why did the ruler get in trouble?",
+    "answer": "Because it measured up."
+  },
+  {
+    "id": "joke_091",
+    "question": "Why did the eraser feel bad?",
+    "answer": "Because it made mistakes disappear."
+  },
+  {
+    "id": "joke_092",
+    "question": "Why did the clock go to school?",
+    "answer": "To learn how to tell time."
+  },
+  {
+    "id": "joke_093",
+    "question": "Why did the backpack smile?",
+    "answer": "Because it was full of good stuff."
+  },
+  {
+    "id": "joke_094",
+    "question": "Why did the desk laugh?",
+    "answer": "Because it had a funny drawer."
+  },
+  {
+    "id": "joke_095",
+    "question": "Why did the sun go to school?",
+    "answer": "To get brighter."
+  },
+  {
+    "id": "joke_096",
+    "question": "Why did the moon skip dinner?",
+    "answer": "It was full."
+  },
+  {
+    "id": "joke_097",
+    "question": "Why did the star wink?",
+    "answer": "Because it was twinkling."
+  },
+  {
+    "id": "joke_098",
+    "question": "Why did the cloud stay home?",
+    "answer": "It felt under the weather."
+  },
+  {
+    "id": "joke_099",
+    "question": "Why did the rain stop?",
+    "answer": "It was tired of falling."
+  },
+  {
+    "id": "joke_100",
+    "question": "What do you call a fast snail?",
+    "answer": "A rocket snail."
+  },
+  {
+    "id": "joke_101",
+    "question": "Why did the turtle cross the road?",
+    "answer": "To get to the shell station."
+  },
+  {
+    "id": "joke_102",
+    "question": "Why did the monkey like bananas?",
+    "answer": "Because they had appeal."
+  },
+  {
+    "id": "joke_103",
+    "question": "Why did the horse talk?",
+    "answer": "Because it had a stable mind."
+  },
+  {
+    "id": "joke_104",
+    "question": "Why did the rabbit smile?",
+    "answer": "Because it was hoppy."
+  },
+  {
+    "id": "joke_105",
+    "question": "Why did the sandwich go to the gym?",
+    "answer": "To get toasted."
+  },
+  {
+    "id": "joke_106",
+    "question": "Why did the milk go to school?",
+    "answer": "To get cultured."
+  },
+  {
+    "id": "joke_107",
+    "question": "Why did the pizza laugh?",
+    "answer": "Because it was cheesy."
+  },
+  {
+    "id": "joke_108",
+    "question": "Why did the soup sing?",
+    "answer": "Because it had good broth."
+  },
+  {
+    "id": "joke_109",
+    "question": "Why did the butter run?",
+    "answer": "Because it was on a roll."
+  },
+  {
+    "id": "joke_110",
+    "question": "Why did the phone go to sleep?",
+    "answer": "Because it lost its charge."
+  },
+  {
+    "id": "joke_111",
+    "question": "Why did the computer smile?",
+    "answer": "Because it had good bytes."
+  },
+  {
+    "id": "joke_112",
+    "question": "Why did the keyboard rest?",
+    "answer": "Too many keys to handle."
+  },
+  {
+    "id": "joke_113",
+    "question": "Why did the screen blink?",
+    "answer": "Because it was tired."
+  },
+  {
+    "id": "joke_114",
+    "question": "Why did the mouse run?",
+    "answer": "Because it clicked."
+  },
+  {
+    "id": "joke_115",
+    "question": "Why did the door laugh?",
+    "answer": "Because it cracked up."
+  },
+  {
+    "id": "joke_116",
+    "question": "Why did the window sing?",
+    "answer": "Because it had a pane."
+  },
+  {
+    "id": "joke_117",
+    "question": "Why did the chair relax?",
+    "answer": "Because it needed a rest."
+  },
+  {
+    "id": "joke_118",
+    "question": "Why did the table smile?",
+    "answer": "Because it was well set."
+  },
+  {
+    "id": "joke_119",
+    "question": "Why did the bed yawn?",
+    "answer": "Because it was sleepy."
+  },
+  {
+    "id": "joke_120",
+    "question": "Why did the shoe laugh?",
+    "answer": "Because it was tied up."
+  },
+  {
+    "id": "joke_121",
+    "question": "Why did the hat smile?",
+    "answer": "Because it felt on top."
+  },
+  {
+    "id": "joke_122",
+    "question": "Why did the shirt dance?",
+    "answer": "Because it had style."
+  },
+  {
+    "id": "joke_123",
+    "question": "Why did the socks hide?",
+    "answer": "Because they were shy."
+  },
+  {
+    "id": "joke_124",
+    "question": "Why did the jacket run?",
+    "answer": "Because it was zipped."
+  },
+  {
+    "id": "joke_125",
+    "question": "Why did the kid bring string to school?",
+    "answer": "To tie up loose ends."
+  },
+  {
+    "id": "joke_126",
+    "question": "Why did the kid sit on homework?",
+    "answer": "To keep it from running away."
+  },
+  {
+    "id": "joke_127",
+    "question": "Why did the kid laugh at lunch?",
+    "answer": "Because it was funny food."
+  },
+  {
+    "id": "joke_128",
+    "question": "Why did the kid run home?",
+    "answer": "To catch up with time."
+  },
+  {
+    "id": "joke_129",
+    "question": "Why did the kid jump?",
+    "answer": "Because they felt happy."
+  },
+  {
+    "id": "joke_130",
+    "question": "Why did the joke go to school?",
+    "answer": "To get funnier."
+  },
+  {
+    "id": "joke_131",
+    "question": "Why did the laugh grow?",
+    "answer": "Because it was contagious."
+  },
+  {
+    "id": "joke_132",
+    "question": "Why did the smile shine?",
+    "answer": "Because it was bright."
+  },
+  {
+    "id": "joke_133",
+    "question": "Why did the giggle spread?",
+    "answer": "Because it was funny."
+  },
+  {
+    "id": "joke_134",
+    "question": "Why did the humor jump?",
+    "answer": "Because it was lively."
+  },
+  {
+    "id": "joke_135",
+    "question": "Knock knock. Who’s there? Boo. Boo who?",
+    "answer": "Don’t cry, it’s just a joke!"
+  },
+  {
+    "id": "joke_136",
+    "question": "Knock knock. Who’s there? Tank. Tank who?",
+    "answer": "You’re welcome!"
+  },
+  {
+    "id": "joke_137",
+    "question": "Knock knock. Who’s there? Olive. Olive who?",
+    "answer": "Olive you!"
+  },
+  {
+    "id": "joke_138",
+    "question": "Knock knock. Who’s there? Ice cream. Ice cream who?",
+    "answer": "Ice cream if you don’t open!"
+  },
+  {
+    "id": "joke_139",
+    "question": "Knock knock. Who’s there? Cow says. Cow says who?",
+    "answer": "No silly—cow says moo!"
+  },
+  {
+    "id": "joke_140",
+    "question": "What did one wall say to the other?",
+    "answer": "I’ll meet you at the corner."
+  },
+  {
+    "id": "joke_141",
+    "question": "Why did the stadium get hot?",
+    "answer": "Because all the fans left."
+  },
+  {
+    "id": "joke_142",
+    "question": "Why did the light bulb fail school?",
+    "answer": "Because it wasn’t bright enough."
+  },
+  {
+    "id": "joke_143",
+    "question": "Why did the road laugh?",
+    "answer": "Because it cracked up."
+  },
+  {
+    "id": "joke_144",
+    "question": "Why did the bell ring?",
+    "answer": "Because it had a good tone."
+  },
+  {
+    "id": "joke_145",
+    "question": "Why did the pencil go to the party?",
+    "answer": "Because it wanted to draw attention."
+  },
+  {
+    "id": "joke_146",
+    "question": "Why did the clock get kicked out?",
+    "answer": "Because it kept tocking back."
+  },
+  {
+    "id": "joke_147",
+    "question": "What do you call a smart duck?",
+    "answer": "A wise quacker."
+  },
+  {
+    "id": "joke_148",
+    "questio
