@@ -1,0 +1,252 @@
+{
+  "category": "logic-puzzles",
+  "questions": [
+    {
+      "question": "Ava, Ben, and Cara each have one pet: a cat, a dog, and a fish. Ava does not have the cat. Ben does not have the fish. Cara does not have the dog. Who has each pet?",
+      "answer": "Ava = fish, Ben = dog, Cara = cat"
+    },
+    {
+      "question": "Liam, Noah, and Emma each chose one drink: apple juice, orange juice, and milk. Liam did not choose milk. Noah did not choose apple juice. Emma chose orange juice. Who chose each drink?",
+      "answer": "Liam = apple juice, Noah = milk, Emma = orange juice"
+    },
+    {
+      "question": "Mia, Jack, and Leo finished a race in first, second, and third place. Mia did not finish first. Jack finished ahead of Leo. Leo did not finish last. Who finished where?",
+      "answer": "Jack = first, Leo = second, Mia = third"
+    },
+    {
+      "question": "Sophie, Max, and Ella have backpacks in red, blue, and green. Sophie does not have red. Max has blue. Ella does not have green. Who has each backpack?",
+      "answer": "Sophie = green, Max = blue, Ella = red"
+    },
+    {
+      "question": "Owen, Ruby, and Chloe each like apples, bananas, and grapes. Owen does not like bananas. Ruby likes grapes. Chloe does not like apples. Who likes each fruit?",
+      "answer": "Owen = apples, Ruby = grapes, Chloe = bananas"
+    },
+    {
+      "question": "Nina, Eli, and Sam sit in a row: left, middle, right. Nina is not in the middle. Eli is not on the right. Sam is in the middle. Who sits where?",
+      "answer": "Nina = right, Eli = left, Sam = middle"
+    },
+    {
+      "question": "Mason, Lily, and Zoe were born in March, June, and September. Mason was not born in March. Lily was born in September. Zoe was not born in June. Who was born when?",
+      "answer": "Mason = June, Lily = September, Zoe = March"
+    },
+    {
+      "question": "Ethan, Grace, and Hannah borrowed mystery, science, and history books. Ethan did not borrow science. Grace borrowed mystery. Hannah did not borrow history. Who borrowed what?",
+      "answer": "Ethan = history, Grace = mystery, Hannah = science"
+    },
+    {
+      "question": "Jake, Nora, and Bella brought sandwich, pasta, and salad. Jake did not bring pasta. Nora brought salad. Bella did not bring sandwich. Who brought what?",
+      "answer": "Jake = sandwich, Nora = salad, Bella = pasta"
+    },
+    {
+      "question": "A robot, puzzle, and teddy bear belong to Finn, Aria, and Cole. Finn does not own teddy bear. Aria owns puzzle. Cole does not own robot. Who owns each?",
+      "answer": "Finn = robot, Aria = puzzle, Cole = teddy bear"
+    },
+    {
+      "question": "Maya, Lucas, and Sophie made painting, collage, and clay model. Maya did not make collage. Lucas made clay model. Sophie did not make painting. Who made what?",
+      "answer": "Maya = painting, Lucas = clay model, Sophie = collage"
+    },
+    {
+      "question": "A rabbit, hamster, and turtle belong to Jack, Emma, and Noah. Jack does not have turtle. Emma has rabbit. Noah does not have hamster. Who has each?",
+      "answer": "Jack = hamster, Emma = rabbit, Noah = turtle"
+    },
+    {
+      "question": "Ava, Lily, and Ben chose vanilla, chocolate, and strawberry ice cream. Ava did not choose strawberry. Lily chose vanilla. Ben did not choose chocolate. Who chose what?",
+      "answer": "Ava = chocolate, Lily = vanilla, Ben = strawberry"
+    },
+    {
+      "question": "Tara, Owen, and Mia joined art, chess, and music clubs. Tara did not join chess. Owen joined music. Mia did not join art. Who joined what?",
+      "answer": "Tara = art, Owen = music, Mia = chess"
+    },
+    {
+      "question": "Leo, Emma, and Ryan flew kites in yellow, red, and blue. Leo did not have blue. Emma had red. Ryan did not have yellow. Who had which kite?",
+      "answer": "Leo = yellow, Emma = red, Ryan = blue"
+    },
+    {
+      "question": "Three boxes A, B, C. A says: coin not in B. B says: coin in C. C says: coin not in C. Only one statement is true. Where is the coin?",
+      "answer": "Box B"
+    },
+    {
+      "question": "Ava says Ben took cookie. Ben says Cara took cookie. Cara says Ben is lying. Only one is telling truth. Who took cookie?",
+      "answer": "Ava"
+    },
+    {
+      "question": "Three doors: fire, lions not fed in 3 years, poison gas. Which is safest?",
+      "answer": "Door with lions"
+    },
+    {
+      "question": "3 switches control 1 light bulb. You can enter room once. How do you find correct switch?",
+      "answer": "Turn one on then off, turn second on. Check light and warmth."
+    },
+    {
+      "question": "Ella, Mason, Ruby have black, purple, yellow pencil cases. Ella not black. Mason yellow. Ruby not purple. Who has each?",
+      "answer": "Ella = purple, Mason = yellow, Ruby = black"
+    },
+
+    {
+      "question": "Ava, Noah, Lily wore red, blue, yellow hats. Ava not red. Noah blue. Lily not yellow. Who wore each?",
+      "answer": "Ava = yellow, Noah = blue, Lily = red"
+    },
+    {
+      "question": "Ben, Emma, Jack brought popcorn, crackers, grapes. Ben not grapes. Emma crackers. Jack not popcorn. Who brought what?",
+      "answer": "Ben = popcorn, Emma = crackers, Jack = grapes"
+    },
+    {
+      "question": "Mia, Leo, Chloe have cat, dog, rabbit. Mia not dog. Leo rabbit. Chloe not cat. Who has each?",
+      "answer": "Mia = cat, Leo = rabbit, Chloe = dog"
+    },
+    {
+      "question": "Olivia, Ethan, Sam play piano, drums, violin. Olivia not drums. Ethan violin. Sam not piano. Who plays what?",
+      "answer": "Olivia = piano, Ethan = violin, Sam = drums"
+    },
+    {
+      "question": "Ruby, Max, Ella wore green, pink, black jackets. Ruby not black. Max green. Ella not pink. Who wore each?",
+      "answer": "Ruby = pink, Max = green, Ella = black"
+    },
+    {
+      "question": "Liam, Zoe, Nora read fantasy, mystery, science. Liam not fantasy. Zoe mystery. Nora not science. Who read what?",
+      "answer": "Liam = science, Zoe = mystery, Nora = fantasy"
+    },
+    {
+      "question": "Mason, Ava, Ben have orange, gray, purple bags. Mason not gray. Ava purple. Ben not orange. Who has each?",
+      "answer": "Mason = orange, Ava = purple, Ben = gray"
+    },
+    {
+      "question": "Emma, Jack, Lily in line. Emma not first. Jack before Lily. Lily not second. Who is first, second, third?",
+      "answer": "Jack = first, Emma = second, Lily = third"
+    },
+    {
+      "question": "Noah, Ryan, Chloe own dinosaur, robot, train. Noah not train. Ryan robot. Chloe not dinosaur. Who owns what?",
+      "answer": "Noah = dinosaur, Ryan = robot, Chloe = train"
+    },
+    {
+      "question": "Ava, Mia, Ben chose vanilla, chocolate, lemon cupcakes. Ava not lemon. Mia vanilla. Ben not chocolate. Who chose what?",
+      "answer": "Ava = chocolate, Mia = vanilla, Ben = lemon"
+    },
+    {
+      "question": "Owen, Ruby, Ella sit left, middle, right. Owen not left. Ruby middle. Ella not right. Who sits where?",
+      "answer": "Owen = right, Ruby = middle, Ella = left"
+    },
+    {
+      "question": "Luca, Emma, Grace held red, silver, blue balloons. Luca not blue. Emma red. Grace not silver. Who has each?",
+      "answer": "Luca = silver, Emma = red, Grace = blue"
+    },
+    {
+      "question": "Nora, Liam, Ella drew tree, house, boat. Nora not house. Liam boat. Ella not tree. Who drew what?",
+      "answer": "Nora = tree, Liam = boat, Ella = house"
+    },
+    {
+      "question": "Ava, Ethan, Lily bought hamster, fish, bird. Ava not bird. Ethan fish. Lily not hamster. Who bought what?",
+      "answer": "Ava = hamster, Ethan = fish, Lily = bird"
+    },
+    {
+      "question": "Mia, Jack, Owen have small, medium, large shoes. Mia not large. Jack medium. Owen not small. Who has what?",
+      "answer": "Mia = small, Jack = medium, Owen = large"
+    },
+    {
+      "question": "Ava says Ben took cookie. Ben says he didn't. Cara says Ava is wrong. Only one true. Who took cookie?",
+      "answer": "Ben"
+    },
+    {
+      "question": "Chest A says treasure in B. B says not here. C says treasure in A. Only one true. Where is treasure?",
+      "answer": "Chest B"
+    },
+    {
+      "question": "Noah, Lily, Emma have red, blue, green pencils. Noah not green. Lily blue. Emma not red. Who has each?",
+      "answer": "Noah = red, Lily = blue, Emma = green"
+    },
+    {
+      "question": "Max, Zoe, Ava own turtle, rabbit, guinea pig. Max not rabbit. Zoe turtle. Ava not guinea pig. Who owns what?",
+      "answer": "Max = guinea pig, Zoe = turtle, Ava = rabbit"
+    },
+    {
+      "question": "Emma, Leo, Nina packed backpack, suitcase, duffel. Emma not suitcase. Leo duffel. Nina not backpack. Who packed what?",
+      "answer": "Emma = backpack, Leo = duffel, Nina = suitcase"
+    }
+  ]
+}
+
+{
+  "category": "logic-puzzles-hard",
+  "questions": [
+    {
+      "question": "Three friends—Alex, Ben, and Cara—each have a different number of marbles: 10, 15, and 20. Alex does not have 10. Ben has more marbles than Cara. Cara does not have 15. Who has how many?",
+      "answer": "Alex = 15, Ben = 20, Cara = 10"
+    },
+    {
+      "question": "Four children—Emma, Liam, Noah, and Ava—stand in a line. Emma is not first or last. Liam is ahead of Noah. Ava is last. Who is first, second, third, and fourth?",
+      "answer": "Liam = first, Emma = second, Noah = third, Ava = fourth"
+    },
+    {
+      "question": "Three boxes contain apples, oranges, and bananas. Each box is labeled incorrectly. Box 1 says 'Apples', Box 2 says 'Oranges', Box 3 says 'Mixed'. You can pick one fruit from one box. Which box do you pick to identify all correctly?",
+      "answer": "Pick from the 'Mixed' box"
+    },
+    {
+      "question": "A farmer has a fox, a chicken, and a bag of grain. He must cross a river but can carry only one at a time. The fox cannot be left with the chicken, and the chicken cannot be left with the grain. How does he cross safely?",
+      "answer": "Take chicken → return → take fox → bring chicken back → take grain → return → take chicken"
+    },
+    {
+      "question": "Three switches control three bulbs in another room. You can only enter once. You flip switches in any way before entering. How do you determine which switch controls which bulb?",
+      "answer": "Use heat and light: one on, one on then off, one untouched"
+    },
+    {
+      "question": "A clock shows the correct time twice a day but is stopped. Another clock loses 1 minute every hour. Which clock is more accurate?",
+      "answer": "The stopped clock"
+    },
+    {
+      "question": "Five houses are in a row, each a different color. In each house lives a person of different nationality with a different pet, drink, and hobby. The Brit lives in the red house. The Swede has dogs. The Dane drinks tea. The green house is immediately left of the white house. The green house owner drinks coffee. The person who plays piano owns birds. The yellow house owner plays soccer. The middle house drinks milk. The Norwegian lives in the first house. The person who plays chess lives next to the one with cats. The person with horses lives next to the one who plays soccer. The person who plays basketball drinks juice. The German plays violin. The Norwegian lives next to the blue house. Who owns the fish?",
+      "answer": "The German"
+    },
+    {
+      "question": "You have two ropes that each take exactly 60 minutes to burn, but they burn unevenly. How can you measure exactly 45 minutes?",
+      "answer": "Light both ends of one rope and one end of the other; when first finishes, light other end of second rope"
+    },
+    {
+      "question": "A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?",
+      "answer": "His son"
+    },
+    {
+      "question": "Three people check into a hotel room costing $30. They each pay $10. Later, the clerk realizes the room costs $25 and gives $5 to the bellboy. The bellboy keeps $2 and gives $1 back to each guest. Now each paid $9 (total $27) plus $2 kept = $29. Where is the missing dollar?",
+      "answer": "There is no missing dollar; incorrect addition logic"
+    },
+    {
+      "question": "You have 8 identical balls, one is slightly heavier. Using a balance scale only twice, how do you find the heavier ball?",
+      "answer": "Split into 3-3-2, compare groups, then compare remaining"
+    },
+    {
+      "question": "A train leaves City A at 3 PM traveling 60 mph. Another leaves City B at 4 PM traveling 90 mph toward City A. Distance is 300 miles. When do they meet?",
+      "answer": "5 PM"
+    },
+    {
+      "question": "A man lives on the 10th floor. Every day he takes the elevator to the ground floor. When returning, he goes to the 7th floor and walks up, except on rainy days when he goes to the 10th. Why?",
+      "answer": "He is too short to reach the 10th floor button"
+    },
+    {
+      "question": "You have a 3-liter and 5-liter jug. How do you measure exactly 4 liters?",
+      "answer": "Fill 5 → pour into 3 → empty 3 → transfer → refill 5 → fill remaining 1 → leaves 4"
+    },
+    {
+      "question": "Two fathers and two sons go fishing. They catch 3 fish, yet each person gets one fish. How?",
+      "answer": "They are grandfather, father, and son"
+    },
+    {
+      "question": "A woman has 7 children. Half are boys. How is this possible?",
+      "answer": "All 7 are boys"
+    },
+    {
+      "question": "There are 100 lockers, all closed. 100 people toggle lockers: 1 toggles all, 2 toggles every 2nd, etc. Which lockers remain open?",
+      "answer": "Perfect squares (1,4,9,16,...)"
+    },
+    {
+      "question": "A cube is painted on all sides and cut into 27 smaller cubes. How many small cubes have exactly 2 faces painted?",
+      "answer": "12"
+    },
+    {
+      "question": "A bat and ball cost $1.10 total. The bat costs $1 more than the ball. How much is the ball?",
+      "answer": "$0.05"
+    },
+    {
+      "question": "You are in a dark room with a candle, a fireplace, and a gas lamp. You have one match. What do you light first?",
+      "answer": "The match"
+    }
+  ]
+}
