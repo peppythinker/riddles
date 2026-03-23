@@ -1,7 +1,5 @@
 let puzzles = [];
 let current = 0;
-let revealedClueCount = 0;
-let cluesExpanded = false;
 
 async function loadPuzzles() {
   try {
@@ -50,99 +48,35 @@ function updateUrl() {
   window.history.replaceState({}, "", url);
 }
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
-}
-
 function getCurrentPuzzle() {
   return puzzles[current];
 }
 
-function getPuzzleClues(puzzle) {
-  if (puzzle?.ui && Array.isArray(puzzle.ui.clues)) {
-    return puzzle.ui.clues;
-  }
-  return [];
-}
+function buildQuestionText(puzzle) {
+  if (!puzzle) return "No puzzle found.";
 
-function getVisibleClues(puzzle) {
-  const clues = getPuzzleClues(puzzle);
-  return clues.slice(0, revealedClueCount);
-}
-
-function formatPuzzleHtml(puzzle) {
-  if (puzzle.ui && (puzzle.ui.setup || puzzle.ui.clues || puzzle.ui.prompt)) {
-    const allClues = getPuzzleClues(puzzle);
-    const visibleClues = getVisibleClues(puzzle);
-    const hasMoreClues = revealedClueCount < allClues.length;
-
-    let html = `<div class="logic-puzzle-ui">`;
+  if (puzzle.ui) {
+    const parts = [];
 
     if (puzzle.ui.setup) {
-      html += `
-        <div class="logic-section logic-setup">
-          <div class="logic-heading">Setup</div>
-          <div class="logic-text">${escapeHtml(puzzle.ui.setup)}</div>
-        </div>
-      `;
+      parts.push(puzzle.ui.setup);
     }
 
-    html += `
-      <div class="logic-section logic-clues">
-        <button class="clue-toggle-btn" onclick="toggleClues()" type="button">
-          ${cluesExpanded ? "Hide Clues" : "Show Clues"}
-        </button>
-    `;
-
-    if (cluesExpanded) {
-      html += `<div class="clues-panel">`;
-
-      if (visibleClues.length > 0) {
-        html += `
-          <ol class="logic-clue-list">
-            ${visibleClues.map(clue => `<li>${escapeHtml(clue)}</li>`).join("")}
-          </ol>
-        `;
-      }
-
-      if (hasMoreClues) {
-        html += `
-          <button class="reveal-clue-btn" onclick="revealNextClue()" type="button">
-            Reveal Next Clue
-          </button>
-        `;
-      } else if (allClues.length > 0) {
-        html += `<div class="all-clues-shown">All clues revealed</div>`;
-      }
-
-      html += `</div>`;
+    if (Array.isArray(puzzle.ui.clues) && puzzle.ui.clues.length > 0) {
+      const clueText = puzzle.ui.clues
+        .map((clue, index) => `${index + 1}. ${clue}`)
+        .join("\n");
+      parts.push(`Clues:\n${clueText}`);
     }
-
-    html += `</div>`;
 
     if (puzzle.ui.prompt) {
-      html += `
-        <div class="logic-section logic-question">
-          <div class="logic-heading">Question</div>
-          <div class="logic-text">${escapeHtml(puzzle.ui.prompt)}</div>
-        </div>
-      `;
+      parts.push(puzzle.ui.prompt);
     }
 
-    html += `</div>`;
-    return html;
+    return parts.join("\n\n");
   }
 
-  return `
-    <div class="logic-puzzle-ui logic-preformatted">
-      ${escapeHtml(puzzle.question || "No puzzle found.").replace(/\n/g, "<br>")}
-    </div>
-  `;
+  return puzzle.question || "No puzzle found.";
 }
 
 function getAnswerText(puzzle) {
@@ -151,11 +85,6 @@ function getAnswerText(puzzle) {
     return puzzle.answer.trim();
   }
   return "No answer available.";
-}
-
-function resetPuzzleViewState() {
-  cluesExpanded = false;
-  revealedClueCount = 0;
 }
 
 function showPuzzle() {
@@ -172,7 +101,8 @@ function showPuzzle() {
   const currentPuzzle = getCurrentPuzzle();
 
   if (questionEl) {
-    questionEl.innerHTML = formatPuzzleHtml(currentPuzzle);
+    questionEl.textContent = buildQuestionText(currentPuzzle);
+    questionEl.style.whiteSpace = "pre-line";
   }
 
   if (answerBox) {
@@ -189,7 +119,7 @@ function showPuzzle() {
   }
 
   if (label) {
-    label.textContent = `Who Am I? #${current + 1}`;
+    label.textContent = "Who Am I?";
   }
 
   if (prevBtn) prevBtn.disabled = current === 0;
@@ -198,39 +128,9 @@ function showPuzzle() {
   updateUrl();
 }
 
-function rerenderPuzzleOnly() {
-  const questionEl = document.querySelector(".riddle-question");
-  if (!questionEl || !puzzles.length) return;
-  questionEl.innerHTML = formatPuzzleHtml(getCurrentPuzzle());
-}
-
-function toggleClues() {
-  const puzzle = getCurrentPuzzle();
-  const clues = getPuzzleClues(puzzle);
-
-  cluesExpanded = !cluesExpanded;
-
-  if (cluesExpanded && revealedClueCount === 0 && clues.length > 0) {
-    revealedClueCount = 1;
-  }
-
-  rerenderPuzzleOnly();
-}
-
-function revealNextClue() {
-  const puzzle = getCurrentPuzzle();
-  const clues = getPuzzleClues(puzzle);
-
-  if (revealedClueCount < clues.length) {
-    revealedClueCount += 1;
-    rerenderPuzzleOnly();
-  }
-}
-
 function nextRiddle() {
   if (current < puzzles.length - 1) {
     current++;
-    resetPuzzleViewState();
     showPuzzle();
   }
 }
@@ -238,7 +138,6 @@ function nextRiddle() {
 function prevRiddle() {
   if (current > 0) {
     current--;
-    resetPuzzleViewState();
     showPuzzle();
   }
 }
@@ -252,7 +151,6 @@ function shuffleRiddle() {
   }
 
   current = randomIndex;
-  resetPuzzleViewState();
   showPuzzle();
 }
 
@@ -278,13 +176,10 @@ async function shareRiddle() {
   shareUrl.searchParams.set("r", current + 1);
 
   const currentPuzzle = getCurrentPuzzle();
-  const shareText =
-    currentPuzzle.ui?.prompt ||
-    currentPuzzle.question ||
-    `Who Am I? #${current + 1}`;
+  const shareText = buildQuestionText(currentPuzzle);
 
   const shareData = {
-    title: `Who Am I? #${current + 1} | Riddle World`,
+    title: `Who Am I? | Riddle World`,
     text: shareText,
     url: shareUrl.toString()
   };
