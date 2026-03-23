@@ -334,3 +334,15 @@ h1 {
 .logic-clue-list li {
   margin-bottom: 6px;
 }
+
+
+
+.riddle-question {
+  white-space: pre-line;
+  text-align: center;
+}
+
+.whoami-page .riddle-question,
+.riddle-question {
+  white-space: pre-line;
+}
