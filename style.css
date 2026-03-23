@@ -271,7 +271,7 @@ h1 {
 
 
 /* =========================
-   For Think Logic Clues
+   For Clues Reveal
 ========================= */
 .clue-toggle-btn,
 .reveal-clue-btn {
@@ -310,4 +310,27 @@ h1 {
   font-size: 13px;
   color: #777;
   font-weight: 600;
+}
+
+.logic-puzzle-ui {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.logic-section + .logic-section {
+  margin-top: 12px;
+}
+
+.logic-heading {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.logic-clue-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.logic-clue-list li {
+  margin-bottom: 6px;
 }
