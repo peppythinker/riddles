@@ -1,45 +1,662 @@
 [
-  {"question":"I have a long trunk, big ears, and I never forget. What am I?","answer":"An elephant."},
-  {"question":"I say moo and give milk. What am I?","answer":"A cow."},
-  {"question":"I have black and white stripes and look like a horse. What am I?","answer":"A zebra."},
-  {"question":"I am known as the king of the jungle. What am I?","answer":"A lion."},
-  {"question":"I hop and carry my baby in a pouch. What am I?","answer":"A kangaroo."},
-  {"question":"I am pink, live on a farm, and love to roll in the mud. What am I?","answer":"A pig."},
-  {"question":"I waddle, quack, and love ponds. What am I?","answer":"A duck."},
-  {"question":"I have a very long neck and eat leaves from tall trees. What am I?","answer":"A giraffe."},
-  {"question":"I am a black-and-white bird that cannot fly and lives in icy places. What am I?","answer":"A penguin."},
-  {"question":"I spin webs to catch my food. What am I?","answer":"A spider."},
 
-  {"question":"I am slow, carry my house on my back, and leave a slimy trail. What am I?","answer":"A snail."},
-  {"question":"I bark, wag my tail, and am called man's best friend. What am I?","answer":"A dog."},
-  {"question":"I purr, chase mice, and love sunny windows. What am I?","answer":"A cat."},
-  {"question":"I am fluffy, say baa, and live in a field. What am I?","answer":"A sheep."},
-  {"question":"I neigh and people ride on my back. What am I?","answer":"A horse."},
-  {"question":"I have a shell and move very slowly on land. What am I?","answer":"A turtle."},
-  {"question":"I am tiny, red with black spots, and lucky to many people. What am I?","answer":"A ladybug."},
-  {"question":"I buzz, make honey, and live in a hive. What am I?","answer":"A bee."},
-  {"question":"I croak, jump, and live near water. What am I?","answer":"A frog."},
-  {"question":"I have eight arms and live in the ocean. What am I?","answer":"An octopus."},
+  {
+    "id": "whoami_001",
+    "ui": {
+      "setup": "I help people learn new things.",
+      "clues": [
+        "I work in a classroom",
+        "I write on a board",
+        "I give homework"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A teacher"
+  },
+  {
+    "id": "whoami_002",
+    "ui": {
+      "setup": "I help people when they are sick.",
+      "clues": [
+        "I work in a hospital",
+        "I wear a white coat",
+        "I check your health"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A doctor"
+  },
+  {
+    "id": "whoami_003",
+    "ui": {
+      "setup": "I put out fires.",
+      "clues": [
+        "I wear protective gear",
+        "I ride a big red truck",
+        "I help in emergencies"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A firefighter"
+  },
+  {
+    "id": "whoami_004",
+    "ui": {
+      "setup": "I cook food for others.",
+      "clues": [
+        "I work in a kitchen",
+        "I use pots and pans",
+        "I make meals"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A chef"
+  },
+  {
+    "id": "whoami_005",
+    "ui": {
+      "setup": "I keep people safe and follow the law.",
+      "clues": [
+        "I wear a uniform",
+        "I may carry a badge",
+        "I help stop crime"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A police officer"
+  },
+  {
+    "id": "whoami_006",
+    "ui": {
+      "setup": "I fly high in the sky.",
+      "clues": [
+        "I control an airplane",
+        "I sit in a cockpit",
+        "I take people places"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A pilot"
+  },
+  {
+    "id": "whoami_007",
+    "ui": {
+      "setup": "I travel into space.",
+      "clues": [
+        "I wear a space suit",
+        "I float in zero gravity",
+        "I explore beyond Earth"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "An astronaut"
+  },
+  {
+    "id": "whoami_008",
+    "ui": {
+      "setup": "I drive students to school.",
+      "clues": [
+        "I drive a large vehicle",
+        "It is usually yellow",
+        "I pick up kids every morning"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A bus driver"
+  },
+  {
+    "id": "whoami_009",
+    "ui": {
+      "setup": "I fix things when they break.",
+      "clues": [
+        "I use tools",
+        "I repair machines",
+        "People call me for help"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A mechanic"
+  },
+  {
+    "id": "whoami_010",
+    "ui": {
+      "setup": "I build houses and structures.",
+      "clues": [
+        "I use wood and tools",
+        "I measure carefully",
+        "I help create buildings"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A builder"
+  },
 
-  {"question":"I swing from trees and love bananas. What am I?","answer":"A monkey."},
-  {"question":"I am orange with black stripes and a powerful roar. What am I?","answer":"A tiger."},
-  {"question":"I howl at the moon and live in a pack. What am I?","answer":"A wolf."},
-  {"question":"I have antlers and live in the forest. What am I?","answer":"A deer."},
-  {"question":"I build dams in rivers using sticks. What am I?","answer":"A beaver."},
-  {"question":"I am black and white, live in the Arctic, and look like a bear. What am I?","answer":"A polar bear."},
-  {"question":"I have a bushy tail, love acorns, and climb trees. What am I?","answer":"A squirrel."},
-  {"question":"I am a bird that can copy what people say. What am I?","answer":"A parrot."},
-  {"question":"I am a nocturnal bird with big eyes and a hoot. What am I?","answer":"An owl."},
-  {"question":"I have a hump on my back and live in the desert. What am I?","answer":"A camel."},
+  {
+    "id": "whoami_011",
+    "ui": {
+      "setup": "I take pictures.",
+      "clues": [
+        "I use a camera",
+        "I capture memories",
+        "I focus on moments"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A photographer"
+  },
+  {
+    "id": "whoami_012",
+    "ui": {
+      "setup": "I cut hair.",
+      "clues": [
+        "I use scissors",
+        "I work in a salon",
+        "People visit me for a haircut"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A barber"
+  },
+  {
+    "id": "whoami_013",
+    "ui": {
+      "setup": "I grow food.",
+      "clues": [
+        "I work on land",
+        "I plant seeds",
+        "I harvest crops"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A farmer"
+  },
+  {
+    "id": "whoami_014",
+    "ui": {
+      "setup": "I deliver letters and packages.",
+      "clues": [
+        "I visit homes",
+        "I carry mail",
+        "I work for the post"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A mail carrier"
+  },
+  {
+    "id": "whoami_015",
+    "ui": {
+      "setup": "I help people shop.",
+      "clues": [
+        "I work in a store",
+        "I handle money",
+        "I use a register"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A cashier"
+  },
+  {
+    "id": "whoami_016",
+    "ui": {
+      "setup": "I care for animals.",
+      "clues": [
+        "I work at a clinic",
+        "I help pets",
+        "I treat animal sickness"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A veterinarian"
+  },
+  {
+    "id": "whoami_017",
+    "ui": {
+      "setup": "I play music.",
+      "clues": [
+        "I use instruments",
+        "I perform songs",
+        "I create sound"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A musician"
+  },
+  {
+    "id": "whoami_018",
+    "ui": {
+      "setup": "I act in movies or shows.",
+      "clues": [
+        "I play different roles",
+        "I perform on screen",
+        "I tell stories"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "An actor"
+  },
+  {
+    "id": "whoami_019",
+    "ui": {
+      "setup": "I help people stay fit.",
+      "clues": [
+        "I work in a gym",
+        "I guide exercises",
+        "I build strength"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A trainer"
+  },
+  {
+    "id": "whoami_020",
+    "ui": {
+      "setup": "I fix teeth.",
+      "clues": [
+        "I use dental tools",
+        "I check smiles",
+        "People visit me twice a year"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A dentist"
+  },
 
-  {"question":"I live in water, have scales, and breathe through gills. What am I?","answer":"A fish."},
-  {"question":"I snap with my claws and walk sideways on the beach. What am I?","answer":"A crab."},
-  {"question":"I carry heavy loads and bray loudly. What am I?","answer":"A donkey."},
-  {"question":"I am a furry animal that sleeps upside down and hangs from trees. What am I?","answer":"A bat."},
-  {"question":"I am spotted, fast, and run quicker than any other land animal. What am I?","answer":"A cheetah."},
-  {"question":"I have soft fur, long ears, and love carrots. What am I?","answer":"A rabbit."},
-  {"question":"I am small, gray, and love cheese in stories. What am I?","answer":"A mouse."},
-  {"question":"I have pinchers, a curved tail, and live in hot dry places. What am I?","answer":"A scorpion."},
-  {"question":"I can change color to blend into my surroundings. What am I?","answer":"A chameleon."},
-  {"question":"I am a striped ocean animal that looks a bit like a horse. What am I?","answer":"A seahorse."}
+  {
+    "id": "whoami_021",
+    "ui": {
+      "setup": "I explore mysteries.",
+      "clues": [
+        "I look for clues",
+        "I solve problems",
+        "I ask questions"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A detective"
+  },
+  {
+    "id": "whoami_022",
+    "ui": {
+      "setup": "I travel the seas.",
+      "clues": [
+        "I sail ships",
+        "I search for treasure",
+        "I may wear an eye patch"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A pirate"
+  },
+  {
+    "id": "whoami_023",
+    "ui": {
+      "setup": "I move silently.",
+      "clues": [
+        "I wear dark clothing",
+        "I use stealth",
+        "I train in martial arts"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A ninja"
+  },
+  {
+    "id": "whoami_024",
+    "ui": {
+      "setup": "I save people in danger.",
+      "clues": [
+        "I have special powers",
+        "I wear a costume",
+        "I fight villains"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A superhero"
+  },
+  {
+    "id": "whoami_025",
+    "ui": {
+      "setup": "I guard places at night.",
+      "clues": [
+        "I watch carefully",
+        "I keep things safe",
+        "I patrol areas"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A security guard"
+  },
+
+  {
+    "id": "whoami_026",
+    "ui": {
+      "setup": "I help put out fires but not with water.",
+      "clues": [
+        "I can cover flames",
+        "I remove oxygen",
+        "I am found in kitchens"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A fire extinguisher"
+  },
+  {
+    "id": "whoami_027",
+    "ui": {
+      "setup": "I help people travel in cities.",
+      "clues": [
+        "I have many seats",
+        "I follow routes",
+        "I stop often"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A bus"
+  },
+  {
+    "id": "whoami_028",
+    "ui": {
+      "setup": "I tell time.",
+      "clues": [
+        "I have hands",
+        "I hang on walls",
+        "I tick and tock"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A clock"
+  },
+  {
+    "id": "whoami_029",
+    "ui": {
+      "setup": "I reflect what you see.",
+      "clues": [
+        "I show your face",
+        "I am made of glass",
+        "I do not change anything"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A mirror"
+  },
+  {
+    "id": "whoami_030",
+    "ui": {
+      "setup": "I follow you everywhere.",
+      "clues": [
+        "I copy your shape",
+        "I disappear in darkness",
+        "I appear in light"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A shadow"
+  },
+
+  {
+    "id": "whoami_031",
+    "ui": {
+      "setup": "I help you write.",
+      "clues": [
+        "I use ink",
+        "I have a tip",
+        "I fit in your hand"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A pen"
+  },
+  {
+    "id": "whoami_032",
+    "ui": {
+      "setup": "I carry your things to school.",
+      "clues": [
+        "I have straps",
+        "I go on your back",
+        "I hold books"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A backpack"
+  },
+  {
+    "id": "whoami_033",
+    "ui": {
+      "setup": "I help you see better.",
+      "clues": [
+        "I sit on your face",
+        "I have lenses",
+        "I improve vision"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "Glasses"
+  },
+  {
+    "id": "whoami_034",
+    "ui": {
+      "setup": "I protect you from rain.",
+      "clues": [
+        "I open and close",
+        "I keep you dry",
+        "I have a handle"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "An umbrella"
+  },
+  {
+    "id": "whoami_035",
+    "ui": {
+      "setup": "I help you stay warm.",
+      "clues": [
+        "I are worn in winter",
+        "I cover your hands",
+        "I are soft"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "Gloves"
+  },
+
+  {
+    "id": "whoami_036",
+    "ui": {
+      "setup": "I shine during the day.",
+      "clues": [
+        "I give light",
+        "I help plants grow",
+        "I am very hot"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "The sun"
+  },
+  {
+    "id": "whoami_037",
+    "ui": {
+      "setup": "I glow at night.",
+      "clues": [
+        "I change shape",
+        "I reflect light",
+        "I am in the sky"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "The moon"
+  },
+  {
+    "id": "whoami_038",
+    "ui": {
+      "setup": "I fall from the sky.",
+      "clues": [
+        "I am made of water",
+        "I help plants grow",
+        "I can be light or heavy"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "Rain"
+  },
+  {
+    "id": "whoami_039",
+    "ui": {
+      "setup": "I blow but have no mouth.",
+      "clues": [
+        "I move leaves",
+        "I can be strong or gentle",
+        "I am invisible"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "The wind"
+  },
+  {
+    "id": "whoami_040",
+    "ui": {
+      "setup": "I light up the dark.",
+      "clues": [
+        "I use electricity",
+        "I hang from ceilings",
+        "I help you see at night"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A light bulb"
+  },
+
+  {
+    "id": "whoami_041",
+    "ui": {
+      "setup": "I help you communicate.",
+      "clues": [
+        "I can call people",
+        "I send messages",
+        "I fit in your pocket"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A phone"
+  },
+  {
+    "id": "whoami_042",
+    "ui": {
+      "setup": "I show moving pictures.",
+      "clues": [
+        "I have a screen",
+        "I play shows",
+        "I entertain people"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A television"
+  },
+  {
+    "id": "whoami_043",
+    "ui": {
+      "setup": "I help you find places.",
+      "clues": [
+        "I show directions",
+        "I can be digital",
+        "I guide travelers"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A map"
+  },
+  {
+    "id": "whoami_044",
+    "ui": {
+      "setup": "I hold water.",
+      "clues": [
+        "I can be carried",
+        "I keep drinks inside",
+        "I have a cap"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A bottle"
+  },
+  {
+    "id": "whoami_045",
+    "ui": {
+      "setup": "I am used to eat food.",
+      "clues": [
+        "I have prongs",
+        "I am made of metal",
+        "I help you pick up food"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A fork"
+  },
+
+  {
+    "id": "whoami_046",
+    "ui": {
+      "setup": "I help you clean.",
+      "clues": [
+        "I use water",
+        "I make things shiny",
+        "I remove dirt"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "Soap"
+  },
+  {
+    "id": "whoami_047",
+    "ui": {
+      "setup": "I am cold and sweet.",
+      "clues": [
+        "I melt",
+        "I come in many flavors",
+        "Kids love me"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "Ice cream"
+  },
+  {
+    "id": "whoami_048",
+    "ui": {
+      "setup": "I go up and down.",
+      "clues": [
+        "I move between floors",
+        "I have buttons",
+        "I am inside buildings"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "An elevator"
+  },
+  {
+    "id": "whoami_049",
+    "ui": {
+      "setup": "I keep you dry in the rain.",
+      "clues": [
+        "I have a hood",
+        "I are worn",
+        "I protect your clothes"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A raincoat"
+  },
+  {
+    "id": "whoami_050",
+    "ui": {
+      "setup": "I am soft and used for sleep.",
+      "clues": [
+        "I support your head",
+        "I sit on a bed",
+        "I help you rest"
+      ],
+      "prompt": "Who am I?"
+    },
+    "answer": "A pillow"
+  }
+
+    
 ]
