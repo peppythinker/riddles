@@ -6,14 +6,14 @@ async function loadPuzzles() {
     const res = await fetch("logic.json");
 
     if (!res.ok) {
-      throw new Error("Could not load logic-puzzles.json");
+      throw new Error("Could not load logic.json");
     }
 
     const data = await res.json();
 
-    // Supports either:
-    // 1) { category: "logic-puzzles", questions: [...] }
-    // 2) [ ... ]
+    // Supports:
+    // 1) [ ... ]
+    // 2) { questions: [ ... ] }
     puzzles = Array.isArray(data) ? data : data.questions;
 
     if (!Array.isArray(puzzles) || puzzles.length === 0) {
@@ -36,13 +36,22 @@ async function loadPuzzles() {
     const answerBox = document.getElementById("answerBox");
     const shareStatus = document.getElementById("shareStatus");
 
-    if (questionEl) questionEl.textContent = "Could not load logic puzzles.";
-    if (label) label.textContent = "Error";
+    if (questionEl) {
+      questionEl.textContent = "Could not load logic puzzles.";
+    }
+
+    if (label) {
+      label.textContent = "Error";
+    }
+
     if (answerBox) {
       answerBox.style.display = "none";
       answerBox.textContent = "";
     }
-    if (shareStatus) shareStatus.textContent = "";
+
+    if (shareStatus) {
+      shareStatus.textContent = "";
+    }
   }
 }
 
@@ -50,6 +59,87 @@ function updateUrl() {
   const url = new URL(window.location.href);
   url.searchParams.set("r", current + 1);
   window.history.replaceState({}, "", url);
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function formatPuzzleHtml(puzzle) {
+  // Best case: structured UI object
+  if (puzzle.ui && (puzzle.ui.setup || puzzle.ui.clues || puzzle.ui.prompt)) {
+    let html = `<div class="logic-puzzle-ui">`;
+
+    if (puzzle.ui.setup) {
+      html += `
+        <div class="logic-section logic-setup">
+          <div class="logic-heading">Setup</div>
+          <div class="logic-text">${escapeHtml(puzzle.ui.setup)}</div>
+        </div>
+      `;
+    }
+
+    if (Array.isArray(puzzle.ui.clues) && puzzle.ui.clues.length > 0) {
+      html += `
+        <div class="logic-section logic-clues">
+          <div class="logic-heading">Clues</div>
+          <ol class="logic-clue-list">
+            ${puzzle.ui.clues.map(clue => `<li>${escapeHtml(clue)}</li>`).join("")}
+          </ol>
+        </div>
+      `;
+    }
+
+    if (puzzle.ui.prompt) {
+      html += `
+        <div class="logic-section logic-question">
+          <div class="logic-heading">Question</div>
+          <div class="logic-text">${escapeHtml(puzzle.ui.prompt)}</div>
+        </div>
+      `;
+    }
+
+    html += `</div>`;
+    return html;
+  }
+
+  // Second best: preformatted ui_text
+  if (puzzle.ui_text) {
+    return `
+      <div class="logic-puzzle-ui logic-preformatted">
+        ${escapeHtml(puzzle.ui_text).replace(/\n/g, "<br>")}
+      </div>
+    `;
+  }
+
+  // Fallback: old format
+  return `
+    <div class="logic-puzzle-ui logic-preformatted">
+      ${escapeHtml(puzzle.question || "No puzzle question found.").replace(/\n/g, "<br>")}
+    </div>
+  `;
+}
+
+function getAnswerText(puzzle) {
+  if (!puzzle) return "No answer available.";
+
+  if (typeof puzzle.answer === "string" && puzzle.answer.trim()) {
+    return puzzle.answer.trim();
+  }
+
+  return "No answer available.";
+}
+
+function getDifficultyText(puzzle) {
+  if (!puzzle || !puzzle.difficulty) return "";
+  const value = String(puzzle.difficulty).trim();
+  if (!value) return "";
+  return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
 function showPuzzle() {
@@ -65,15 +155,37 @@ function showPuzzle() {
 
   const currentPuzzle = puzzles[current];
 
-  questionEl.textContent = currentPuzzle.question || "No puzzle question found.";
-  answerBox.textContent = currentPuzzle.answer || "No answer available.";
-  answerBox.style.display = "none";
-  answerBtn.textContent = "Show Answer";
-  shareStatus.textContent = "";
-  label.textContent = `Logic Puzzle #${current + 1}`;
+  if (questionEl) {
+    questionEl.innerHTML = formatPuzzleHtml(currentPuzzle);
+  }
 
-  if (prevBtn) prevBtn.disabled = current === 0;
-  if (nextBtn) nextBtn.disabled = current === puzzles.length - 1;
+  if (answerBox) {
+    answerBox.textContent = getAnswerText(currentPuzzle);
+    answerBox.style.display = "none";
+  }
+
+  if (answerBtn) {
+    answerBtn.textContent = "Show Answer";
+  }
+
+  if (shareStatus) {
+    shareStatus.textContent = "";
+  }
+
+  if (label) {
+    const difficulty = getDifficultyText(currentPuzzle);
+    label.textContent = difficulty
+      ? `Logic Puzzle #${current + 1} • ${difficulty}`
+      : `Logic Puzzle #${current + 1}`;
+  }
+
+  if (prevBtn) {
+    prevBtn.disabled = current === 0;
+  }
+
+  if (nextBtn) {
+    nextBtn.disabled = current === puzzles.length - 1;
+  }
 
   updateUrl();
 }
@@ -127,10 +239,15 @@ async function shareRiddle() {
   shareUrl.searchParams.set("r", current + 1);
 
   const currentPuzzle = puzzles[current];
+  const shareText =
+    currentPuzzle.ui_text ||
+    currentPuzzle.question ||
+    currentPuzzle.ui?.prompt ||
+    `Logic Puzzle #${current + 1}`;
 
   const shareData = {
     title: `Logic Puzzle #${current + 1} | Riddle World`,
-    text: currentPuzzle.question,
+    text: shareText,
     url: shareUrl.toString()
   };
 
