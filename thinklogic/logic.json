@@ -1,355 +1,1159 @@
 {
   "category": "logic-puzzles",
+  "version": "ui-ready-v2",
+  "source_file": "logic-2.json",
   "questions": [
     {
-      "question": "Ava, Ben, and Cara each have one pet: a cat, a dog, and a fish. Ava does not have the cat. Ben does not have the fish. Cara does not have the dog. Who has each pet?",
-      "answer": "Ava = fish, Ben = dog, Cara = cat",
-      "difficulty": "easy"
+      "id": "logic_001",
+      "type": "matching-logic",
+      "difficulty": "easy",
+      "question": "Ava, Ben, and Cara each have one pet: a cat, a dog, and a fish. Ava does not have the cat. Ben does not have the fish. Cara does not have the dog. Ava does not have the fish. Who has each pet?",
+      "ui": {
+        "setup": "Ava, Ben, and Cara each have one pet: a cat, a dog, and a fish.",
+        "clues": [
+          "Ava does not have the cat.",
+          "Ben does not have the fish.",
+          "Cara does not have the dog.",
+          "Ava does not have the fish."
+        ],
+        "prompt": "Who has each pet?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nAva, Ben, and Cara each have one pet: a cat, a dog, and a fish.\n\nClues:\n1. Ava does not have the cat.\n2. Ben does not have the fish.\n3. Cara does not have the dog.\n4. Ava does not have the fish.\n\nQuestion: Who has each pet?",
+      "answer": "Ava = dog, Ben = cat, Cara = fish"
     },
     {
+      "id": "logic_002",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Liam, Noah, and Emma each chose one drink: apple juice, orange juice, and milk. Liam did not choose milk. Noah did not choose apple juice. Emma chose orange juice. Who chose each drink?",
-      "answer": "Liam = apple juice, Noah = milk, Emma = orange juice",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Liam, Noah, and Emma each chose one drink: apple juice, orange juice, and milk.",
+        "clues": [
+          "Liam did not choose milk.",
+          "Noah did not choose apple juice.",
+          "Emma chose orange juice."
+        ],
+        "prompt": "Who chose each drink?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nLiam, Noah, and Emma each chose one drink: apple juice, orange juice, and milk.\n\nClues:\n1. Liam did not choose milk.\n2. Noah did not choose apple juice.\n3. Emma chose orange juice.\n\nQuestion: Who chose each drink?",
+      "answer": "Liam = apple juice, Noah = milk, Emma = orange juice"
     },
     {
+      "id": "logic_003",
+      "type": "ordering-logic",
+      "difficulty": "easy",
       "question": "Mia, Jack, and Leo finished a race in first, second, and third place. Mia did not finish first. Jack finished ahead of Leo. Leo did not finish last. Who finished where?",
-      "answer": "Jack = first, Leo = second, Mia = third",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Mia, Jack, and Leo finished a race in first, second, and third place.",
+        "clues": [
+          "Mia did not finish first.",
+          "Jack finished ahead of Leo.",
+          "Leo did not finish last."
+        ],
+        "prompt": "Who finished where?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMia, Jack, and Leo finished a race in first, second, and third place.\n\nClues:\n1. Mia did not finish first.\n2. Jack finished ahead of Leo.\n3. Leo did not finish last.\n\nQuestion: Who finished where?",
+      "answer": "Jack = first, Leo = second, Mia = third"
     },
     {
+      "id": "logic_004",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Sophie, Max, and Ella have backpacks in red, blue, and green. Sophie does not have red. Max has blue. Ella does not have green. Who has each backpack?",
-      "answer": "Sophie = green, Max = blue, Ella = red",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Sophie, Max, and Ella have backpacks in red, blue, and green.",
+        "clues": [
+          "Sophie does not have red.",
+          "Max has blue.",
+          "Ella does not have green."
+        ],
+        "prompt": "Who has each backpack?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nSophie, Max, and Ella have backpacks in red, blue, and green.\n\nClues:\n1. Sophie does not have red.\n2. Max has blue.\n3. Ella does not have green.\n\nQuestion: Who has each backpack?",
+      "answer": "Sophie = green, Max = blue, Ella = red"
     },
     {
+      "id": "logic_005",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Owen, Ruby, and Chloe each like apples, bananas, and grapes. Owen does not like bananas. Ruby likes grapes. Chloe does not like apples. Who likes each fruit?",
-      "answer": "Owen = apples, Ruby = grapes, Chloe = bananas",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Owen, Ruby, and Chloe each like apples, bananas, and grapes.",
+        "clues": [
+          "Owen does not like bananas.",
+          "Ruby likes grapes.",
+          "Chloe does not like apples."
+        ],
+        "prompt": "Who likes each fruit?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nOwen, Ruby, and Chloe each like apples, bananas, and grapes.\n\nClues:\n1. Owen does not like bananas.\n2. Ruby likes grapes.\n3. Chloe does not like apples.\n\nQuestion: Who likes each fruit?",
+      "answer": "Owen = apples, Ruby = grapes, Chloe = bananas"
     },
     {
+      "id": "logic_006",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Nina, Eli, and Sam sit in a row: left, middle, right. Nina is not in the middle. Eli is not on the right. Sam is in the middle. Who sits where?",
-      "answer": "Nina = right, Eli = left, Sam = middle",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Nina, Eli, and Sam sit in a row: left, middle, right.",
+        "clues": [
+          "Nina is not in the middle.",
+          "Eli is not on the right.",
+          "Sam is in the middle."
+        ],
+        "prompt": "Who sits where?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nNina, Eli, and Sam sit in a row: left, middle, right.\n\nClues:\n1. Nina is not in the middle.\n2. Eli is not on the right.\n3. Sam is in the middle.\n\nQuestion: Who sits where?",
+      "answer": "Nina = right, Eli = left, Sam = middle"
     },
     {
+      "id": "logic_007",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Mason, Lily, and Zoe were born in March, June, and September. Mason was not born in March. Lily was born in September. Zoe was not born in June. Who was born when?",
-      "answer": "Mason = June, Lily = September, Zoe = March",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Mason, Lily, and Zoe were born in March, June, and September.",
+        "clues": [
+          "Mason was not born in March.",
+          "Lily was born in September.",
+          "Zoe was not born in June."
+        ],
+        "prompt": "Who was born when?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMason, Lily, and Zoe were born in March, June, and September.\n\nClues:\n1. Mason was not born in March.\n2. Lily was born in September.\n3. Zoe was not born in June.\n\nQuestion: Who was born when?",
+      "answer": "Mason = June, Lily = September, Zoe = March"
     },
     {
+      "id": "logic_008",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ethan, Grace, and Hannah borrowed mystery, science, and history books. Ethan did not borrow science. Grace borrowed mystery. Hannah did not borrow history. Who borrowed what?",
-      "answer": "Ethan = history, Grace = mystery, Hannah = science",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ethan, Grace, and Hannah borrowed mystery, science, and history books.",
+        "clues": [
+          "Ethan did not borrow science.",
+          "Grace borrowed mystery.",
+          "Hannah did not borrow history."
+        ],
+        "prompt": "Who borrowed what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nEthan, Grace, and Hannah borrowed mystery, science, and history books.\n\nClues:\n1. Ethan did not borrow science.\n2. Grace borrowed mystery.\n3. Hannah did not borrow history.\n\nQuestion: Who borrowed what?",
+      "answer": "Ethan = history, Grace = mystery, Hannah = science"
     },
     {
+      "id": "logic_009",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Jake, Nora, and Bella brought sandwich, pasta, and salad. Jake did not bring pasta. Nora brought salad. Bella did not bring sandwich. Who brought what?",
-      "answer": "Jake = sandwich, Nora = salad, Bella = pasta",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Jake, Nora, and Bella brought sandwich, pasta, and salad.",
+        "clues": [
+          "Jake did not bring pasta.",
+          "Nora brought salad.",
+          "Bella did not bring sandwich."
+        ],
+        "prompt": "Who brought what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nJake, Nora, and Bella brought sandwich, pasta, and salad.\n\nClues:\n1. Jake did not bring pasta.\n2. Nora brought salad.\n3. Bella did not bring sandwich.\n\nQuestion: Who brought what?",
+      "answer": "Jake = sandwich, Nora = salad, Bella = pasta"
     },
     {
+      "id": "logic_010",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "A robot, puzzle, and teddy bear belong to Finn, Aria, and Cole. Finn does not own teddy bear. Aria owns puzzle. Cole does not own robot. Who owns each?",
-      "answer": "Finn = robot, Aria = puzzle, Cole = teddy bear",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "A robot, puzzle, and teddy bear belong to Finn, Aria, and Cole.",
+        "clues": [
+          "Finn does not own teddy bear.",
+          "Aria owns puzzle.",
+          "Cole does not own robot."
+        ],
+        "prompt": "Who owns each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA robot, puzzle, and teddy bear belong to Finn, Aria, and Cole.\n\nClues:\n1. Finn does not own teddy bear.\n2. Aria owns puzzle.\n3. Cole does not own robot.\n\nQuestion: Who owns each?",
+      "answer": "Finn = robot, Aria = puzzle, Cole = teddy bear"
     },
     {
+      "id": "logic_011",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Maya, Lucas, and Sophie made painting, collage, and clay model. Maya did not make collage. Lucas made clay model. Sophie did not make painting. Who made what?",
-      "answer": "Maya = painting, Lucas = clay model, Sophie = collage",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Maya, Lucas, and Sophie made painting, collage, and clay model.",
+        "clues": [
+          "Maya did not make collage.",
+          "Lucas made clay model.",
+          "Sophie did not make painting."
+        ],
+        "prompt": "Who made what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMaya, Lucas, and Sophie made painting, collage, and clay model.\n\nClues:\n1. Maya did not make collage.\n2. Lucas made clay model.\n3. Sophie did not make painting.\n\nQuestion: Who made what?",
+      "answer": "Maya = painting, Lucas = clay model, Sophie = collage"
     },
     {
+      "id": "logic_012",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "A rabbit, hamster, and turtle belong to Jack, Emma, and Noah. Jack does not have turtle. Emma has rabbit. Noah does not have hamster. Who has each?",
-      "answer": "Jack = hamster, Emma = rabbit, Noah = turtle",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "A rabbit, hamster, and turtle belong to Jack, Emma, and Noah.",
+        "clues": [
+          "Jack does not have turtle.",
+          "Emma has rabbit.",
+          "Noah does not have hamster."
+        ],
+        "prompt": "Who has each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA rabbit, hamster, and turtle belong to Jack, Emma, and Noah.\n\nClues:\n1. Jack does not have turtle.\n2. Emma has rabbit.\n3. Noah does not have hamster.\n\nQuestion: Who has each?",
+      "answer": "Jack = hamster, Emma = rabbit, Noah = turtle"
     },
     {
+      "id": "logic_013",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ava, Lily, and Ben chose vanilla, chocolate, and strawberry ice cream. Ava did not choose strawberry. Lily chose vanilla. Ben did not choose chocolate. Who chose what?",
-      "answer": "Ava = chocolate, Lily = vanilla, Ben = strawberry",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ava, Lily, and Ben chose vanilla, chocolate, and strawberry ice cream.",
+        "clues": [
+          "Ava did not choose strawberry.",
+          "Lily chose vanilla.",
+          "Ben did not choose chocolate."
+        ],
+        "prompt": "Who chose what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nAva, Lily, and Ben chose vanilla, chocolate, and strawberry ice cream.\n\nClues:\n1. Ava did not choose strawberry.\n2. Lily chose vanilla.\n3. Ben did not choose chocolate.\n\nQuestion: Who chose what?",
+      "answer": "Ava = chocolate, Lily = vanilla, Ben = strawberry"
     },
     {
+      "id": "logic_014",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Tara, Owen, and Mia joined art, chess, and music clubs. Tara did not join chess. Owen joined music. Mia did not join art. Who joined what?",
-      "answer": "Tara = art, Owen = music, Mia = chess",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Tara, Owen, and Mia joined art, chess, and music clubs.",
+        "clues": [
+          "Tara did not join chess.",
+          "Owen joined music.",
+          "Mia did not join art."
+        ],
+        "prompt": "Who joined what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nTara, Owen, and Mia joined art, chess, and music clubs.\n\nClues:\n1. Tara did not join chess.\n2. Owen joined music.\n3. Mia did not join art.\n\nQuestion: Who joined what?",
+      "answer": "Tara = art, Owen = music, Mia = chess"
     },
     {
+      "id": "logic_015",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Leo, Emma, and Ryan flew kites in yellow, red, and blue. Leo did not have blue. Emma had red. Ryan did not have yellow. Who had which kite?",
-      "answer": "Leo = yellow, Emma = red, Ryan = blue",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Leo, Emma, and Ryan flew kites in yellow, red, and blue.",
+        "clues": [
+          "Leo did not have blue.",
+          "Emma had red.",
+          "Ryan did not have yellow."
+        ],
+        "prompt": "Who had which kite?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nLeo, Emma, and Ryan flew kites in yellow, red, and blue.\n\nClues:\n1. Leo did not have blue.\n2. Emma had red.\n3. Ryan did not have yellow.\n\nQuestion: Who had which kite?",
+      "answer": "Leo = yellow, Emma = red, Ryan = blue"
     },
     {
+      "id": "logic_016",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ella, Mason, and Ruby have black, purple, and yellow pencil cases. Ella does not have black. Mason has yellow. Ruby does not have purple. Who has each?",
-      "answer": "Ella = purple, Mason = yellow, Ruby = black",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ella, Mason, and Ruby have black, purple, and yellow pencil cases.",
+        "clues": [
+          "Ella does not have black.",
+          "Mason has yellow.",
+          "Ruby does not have purple."
+        ],
+        "prompt": "Who has each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nElla, Mason, and Ruby have black, purple, and yellow pencil cases.\n\nClues:\n1. Ella does not have black.\n2. Mason has yellow.\n3. Ruby does not have purple.\n\nQuestion: Who has each?",
+      "answer": "Ella = purple, Mason = yellow, Ruby = black"
     },
     {
+      "id": "logic_017",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ava, Noah, and Lily wore red, blue, and yellow hats. Ava did not wear red. Noah wore blue. Lily did not wear yellow. Who wore each?",
-      "answer": "Ava = yellow, Noah = blue, Lily = red",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ava, Noah, and Lily wore red, blue, and yellow hats.",
+        "clues": [
+          "Ava did not wear red.",
+          "Noah wore blue.",
+          "Lily did not wear yellow."
+        ],
+        "prompt": "Who wore each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nAva, Noah, and Lily wore red, blue, and yellow hats.\n\nClues:\n1. Ava did not wear red.\n2. Noah wore blue.\n3. Lily did not wear yellow.\n\nQuestion: Who wore each?",
+      "answer": "Ava = yellow, Noah = blue, Lily = red"
     },
     {
+      "id": "logic_018",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ben, Emma, and Jack brought popcorn, crackers, and grapes. Ben did not bring grapes. Emma brought crackers. Jack did not bring popcorn. Who brought what?",
-      "answer": "Ben = popcorn, Emma = crackers, Jack = grapes",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ben, Emma, and Jack brought popcorn, crackers, and grapes.",
+        "clues": [
+          "Ben did not bring grapes.",
+          "Emma brought crackers.",
+          "Jack did not bring popcorn."
+        ],
+        "prompt": "Who brought what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nBen, Emma, and Jack brought popcorn, crackers, and grapes.\n\nClues:\n1. Ben did not bring grapes.\n2. Emma brought crackers.\n3. Jack did not bring popcorn.\n\nQuestion: Who brought what?",
+      "answer": "Ben = popcorn, Emma = crackers, Jack = grapes"
     },
     {
+      "id": "logic_019",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Mia, Leo, and Chloe have a cat, a dog, and a rabbit. Mia does not have the dog. Leo has the rabbit. Chloe does not have the cat. Who has each?",
-      "answer": "Mia = cat, Leo = rabbit, Chloe = dog",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Mia, Leo, and Chloe have a cat, a dog, and a rabbit.",
+        "clues": [
+          "Mia does not have the dog.",
+          "Leo has the rabbit.",
+          "Chloe does not have the cat."
+        ],
+        "prompt": "Who has each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMia, Leo, and Chloe have a cat, a dog, and a rabbit.\n\nClues:\n1. Mia does not have the dog.\n2. Leo has the rabbit.\n3. Chloe does not have the cat.\n\nQuestion: Who has each?",
+      "answer": "Mia = cat, Leo = rabbit, Chloe = dog"
     },
     {
+      "id": "logic_020",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Olivia, Ethan, and Sam play piano, drums, and violin. Olivia does not play drums. Ethan plays violin. Sam does not play piano. Who plays what?",
-      "answer": "Olivia = piano, Ethan = violin, Sam = drums",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Olivia, Ethan, and Sam play piano, drums, and violin.",
+        "clues": [
+          "Olivia does not play drums.",
+          "Ethan plays violin.",
+          "Sam does not play piano."
+        ],
+        "prompt": "Who plays what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nOlivia, Ethan, and Sam play piano, drums, and violin.\n\nClues:\n1. Olivia does not play drums.\n2. Ethan plays violin.\n3. Sam does not play piano.\n\nQuestion: Who plays what?",
+      "answer": "Olivia = piano, Ethan = violin, Sam = drums"
     },
     {
+      "id": "logic_021",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ruby, Max, and Ella wore green, pink, and black jackets. Ruby did not wear black. Max wore green. Ella did not wear pink. Who wore each?",
-      "answer": "Ruby = pink, Max = green, Ella = black",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ruby, Max, and Ella wore green, pink, and black jackets.",
+        "clues": [
+          "Ruby did not wear black.",
+          "Max wore green.",
+          "Ella did not wear pink."
+        ],
+        "prompt": "Who wore each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nRuby, Max, and Ella wore green, pink, and black jackets.\n\nClues:\n1. Ruby did not wear black.\n2. Max wore green.\n3. Ella did not wear pink.\n\nQuestion: Who wore each?",
+      "answer": "Ruby = pink, Max = green, Ella = black"
     },
     {
+      "id": "logic_022",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Liam, Zoe, and Nora read fantasy, mystery, and science books. Liam did not read fantasy. Zoe read mystery. Nora did not read science. Who read what?",
-      "answer": "Liam = science, Zoe = mystery, Nora = fantasy",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Liam, Zoe, and Nora read fantasy, mystery, and science books.",
+        "clues": [
+          "Liam did not read fantasy.",
+          "Zoe read mystery.",
+          "Nora did not read science."
+        ],
+        "prompt": "Who read what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nLiam, Zoe, and Nora read fantasy, mystery, and science books.\n\nClues:\n1. Liam did not read fantasy.\n2. Zoe read mystery.\n3. Nora did not read science.\n\nQuestion: Who read what?",
+      "answer": "Liam = science, Zoe = mystery, Nora = fantasy"
     },
     {
+      "id": "logic_023",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Mason, Ava, and Ben have orange, gray, and purple bags. Mason does not have gray. Ava has purple. Ben does not have orange. Who has each?",
-      "answer": "Mason = orange, Ava = purple, Ben = gray",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Mason, Ava, and Ben have orange, gray, and purple bags.",
+        "clues": [
+          "Mason does not have gray.",
+          "Ava has purple.",
+          "Ben does not have orange."
+        ],
+        "prompt": "Who has each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMason, Ava, and Ben have orange, gray, and purple bags.\n\nClues:\n1. Mason does not have gray.\n2. Ava has purple.\n3. Ben does not have orange.\n\nQuestion: Who has each?",
+      "answer": "Mason = orange, Ava = purple, Ben = gray"
     },
     {
+      "id": "logic_024",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Noah, Ryan, and Chloe own a dinosaur, a robot, and a train. Noah does not own the train. Ryan owns the robot. Chloe does not own the dinosaur. Who owns what?",
-      "answer": "Noah = dinosaur, Ryan = robot, Chloe = train",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Noah, Ryan, and Chloe own a dinosaur, a robot, and a train.",
+        "clues": [
+          "Noah does not own the train.",
+          "Ryan owns the robot.",
+          "Chloe does not own the dinosaur."
+        ],
+        "prompt": "Who owns what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nNoah, Ryan, and Chloe own a dinosaur, a robot, and a train.\n\nClues:\n1. Noah does not own the train.\n2. Ryan owns the robot.\n3. Chloe does not own the dinosaur.\n\nQuestion: Who owns what?",
+      "answer": "Noah = dinosaur, Ryan = robot, Chloe = train"
     },
     {
+      "id": "logic_025",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ava, Mia, and Ben chose vanilla, chocolate, and lemon cupcakes. Ava did not choose lemon. Mia chose vanilla. Ben did not choose chocolate. Who chose what?",
-      "answer": "Ava = chocolate, Mia = vanilla, Ben = lemon",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ava, Mia, and Ben chose vanilla, chocolate, and lemon cupcakes.",
+        "clues": [
+          "Ava did not choose lemon.",
+          "Mia chose vanilla.",
+          "Ben did not choose chocolate."
+        ],
+        "prompt": "Who chose what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nAva, Mia, and Ben chose vanilla, chocolate, and lemon cupcakes.\n\nClues:\n1. Ava did not choose lemon.\n2. Mia chose vanilla.\n3. Ben did not choose chocolate.\n\nQuestion: Who chose what?",
+      "answer": "Ava = chocolate, Mia = vanilla, Ben = lemon"
     },
     {
+      "id": "logic_026",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Owen, Ruby, and Ella sit left, middle, and right. Owen is not on the left. Ruby is in the middle. Ella is not on the right. Who sits where?",
-      "answer": "Owen = right, Ruby = middle, Ella = left",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Owen, Ruby, and Ella sit left, middle, and right.",
+        "clues": [
+          "Owen is not on the left.",
+          "Ruby is in the middle.",
+          "Ella is not on the right."
+        ],
+        "prompt": "Who sits where?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nOwen, Ruby, and Ella sit left, middle, and right.\n\nClues:\n1. Owen is not on the left.\n2. Ruby is in the middle.\n3. Ella is not on the right.\n\nQuestion: Who sits where?",
+      "answer": "Owen = right, Ruby = middle, Ella = left"
     },
     {
+      "id": "logic_027",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Luca, Emma, and Grace held red, silver, and blue balloons. Luca did not hold blue. Emma held red. Grace did not hold silver. Who has each?",
-      "answer": "Luca = silver, Emma = red, Grace = blue",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Luca, Emma, and Grace held red, silver, and blue balloons.",
+        "clues": [
+          "Luca did not hold blue.",
+          "Emma held red.",
+          "Grace did not hold silver."
+        ],
+        "prompt": "Who has each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nLuca, Emma, and Grace held red, silver, and blue balloons.\n\nClues:\n1. Luca did not hold blue.\n2. Emma held red.\n3. Grace did not hold silver.\n\nQuestion: Who has each?",
+      "answer": "Luca = silver, Emma = red, Grace = blue"
     },
     {
+      "id": "logic_028",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Nora, Liam, and Ella drew a tree, a house, and a boat. Nora did not draw the house. Liam drew the boat. Ella did not draw the tree. Who drew what?",
-      "answer": "Nora = tree, Liam = boat, Ella = house",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Nora, Liam, and Ella drew a tree, a house, and a boat.",
+        "clues": [
+          "Nora did not draw the house.",
+          "Liam drew the boat.",
+          "Ella did not draw the tree."
+        ],
+        "prompt": "Who drew what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nNora, Liam, and Ella drew a tree, a house, and a boat.\n\nClues:\n1. Nora did not draw the house.\n2. Liam drew the boat.\n3. Ella did not draw the tree.\n\nQuestion: Who drew what?",
+      "answer": "Nora = tree, Liam = boat, Ella = house"
     },
     {
+      "id": "logic_029",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ava, Ethan, and Lily bought a hamster, a fish, and a bird. Ava did not buy the bird. Ethan bought the fish. Lily did not buy the hamster. Who bought what?",
-      "answer": "Ava = hamster, Ethan = fish, Lily = bird",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ava, Ethan, and Lily bought a hamster, a fish, and a bird.",
+        "clues": [
+          "Ava did not buy the bird.",
+          "Ethan bought the fish.",
+          "Lily did not buy the hamster."
+        ],
+        "prompt": "Who bought what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nAva, Ethan, and Lily bought a hamster, a fish, and a bird.\n\nClues:\n1. Ava did not buy the bird.\n2. Ethan bought the fish.\n3. Lily did not buy the hamster.\n\nQuestion: Who bought what?",
+      "answer": "Ava = hamster, Ethan = fish, Lily = bird"
     },
     {
+      "id": "logic_030",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Mia, Jack, and Owen have small, medium, and large shoes. Mia does not have the large size. Jack has medium. Owen does not have small. Who has what?",
-      "answer": "Mia = small, Jack = medium, Owen = large",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Mia, Jack, and Owen have small, medium, and large shoes.",
+        "clues": [
+          "Mia does not have the large size.",
+          "Jack has medium.",
+          "Owen does not have small."
+        ],
+        "prompt": "Who has what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMia, Jack, and Owen have small, medium, and large shoes.\n\nClues:\n1. Mia does not have the large size.\n2. Jack has medium.\n3. Owen does not have small.\n\nQuestion: Who has what?",
+      "answer": "Mia = small, Jack = medium, Owen = large"
     },
     {
+      "id": "logic_031",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Noah, Lily, and Emma have red, blue, and green pencils. Noah does not have green. Lily has blue. Emma does not have red. Who has each?",
-      "answer": "Noah = red, Lily = blue, Emma = green",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Noah, Lily, and Emma have red, blue, and green pencils.",
+        "clues": [
+          "Noah does not have green.",
+          "Lily has blue.",
+          "Emma does not have red."
+        ],
+        "prompt": "Who has each?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nNoah, Lily, and Emma have red, blue, and green pencils.\n\nClues:\n1. Noah does not have green.\n2. Lily has blue.\n3. Emma does not have red.\n\nQuestion: Who has each?",
+      "answer": "Noah = red, Lily = blue, Emma = green"
     },
     {
+      "id": "logic_032",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Max, Zoe, and Ava own a turtle, a rabbit, and a guinea pig. Max does not own the rabbit. Zoe owns the turtle. Ava does not own the guinea pig. Who owns what?",
-      "answer": "Max = guinea pig, Zoe = turtle, Ava = rabbit",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Max, Zoe, and Ava own a turtle, a rabbit, and a guinea pig.",
+        "clues": [
+          "Max does not own the rabbit.",
+          "Zoe owns the turtle.",
+          "Ava does not own the guinea pig."
+        ],
+        "prompt": "Who owns what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMax, Zoe, and Ava own a turtle, a rabbit, and a guinea pig.\n\nClues:\n1. Max does not own the rabbit.\n2. Zoe owns the turtle.\n3. Ava does not own the guinea pig.\n\nQuestion: Who owns what?",
+      "answer": "Max = guinea pig, Zoe = turtle, Ava = rabbit"
     },
     {
+      "id": "logic_033",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Emma, Leo, and Nina packed a backpack, a suitcase, and a duffel bag. Emma did not pack the suitcase. Leo packed the duffel bag. Nina did not pack the backpack. Who packed what?",
-      "answer": "Emma = backpack, Leo = duffel bag, Nina = suitcase",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Emma, Leo, and Nina packed a backpack, a suitcase, and a duffel bag.",
+        "clues": [
+          "Emma did not pack the suitcase.",
+          "Leo packed the duffel bag.",
+          "Nina did not pack the backpack."
+        ],
+        "prompt": "Who packed what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nEmma, Leo, and Nina packed a backpack, a suitcase, and a duffel bag.\n\nClues:\n1. Emma did not pack the suitcase.\n2. Leo packed the duffel bag.\n3. Nina did not pack the backpack.\n\nQuestion: Who packed what?",
+      "answer": "Emma = backpack, Leo = duffel bag, Nina = suitcase"
     },
     {
+      "id": "logic_034",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Three friends—Emma, Jack, and Lily—stand in line. Emma is not first. Jack is before Lily. Lily is not second. Who is first, second, and third?",
-      "answer": "Jack = first, Emma = second, Lily = third",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Three friends—Emma, Jack, and Lily—stand in line.",
+        "clues": [
+          "Emma is not first.",
+          "Jack is before Lily.",
+          "Lily is not second."
+        ],
+        "prompt": "Who is first, second, and third?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree friends—Emma, Jack, and Lily—stand in line.\n\nClues:\n1. Emma is not first.\n2. Jack is before Lily.\n3. Lily is not second.\n\nQuestion: Who is first, second, and third?",
+      "answer": "Jack = first, Emma = second, Lily = third"
     },
     {
+      "id": "logic_035",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Three kids—Ava, Noah, and Lily—each wore a different scarf: red, blue, and yellow. Ava did not wear red. Noah did not wear yellow. Lily wore red. Who wore each scarf?",
-      "answer": "Ava = yellow, Noah = blue, Lily = red",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Three kids—Ava, Noah, and Lily—each wore a different scarf: red, blue, and yellow.",
+        "clues": [
+          "Ava did not wear red.",
+          "Noah did not wear yellow.",
+          "Lily wore red."
+        ],
+        "prompt": "Who wore each scarf?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree kids—Ava, Noah, and Lily—each wore a different scarf: red, blue, and yellow.\n\nClues:\n1. Ava did not wear red.\n2. Noah did not wear yellow.\n3. Lily wore red.\n\nQuestion: Who wore each scarf?",
+      "answer": "Ava = yellow, Noah = blue, Lily = red"
     },
     {
+      "id": "logic_036",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Mason, Chloe, and Ben each chose a different breakfast: toast, cereal, and pancakes. Mason did not choose cereal. Chloe chose pancakes. Ben did not choose toast. Who chose what?",
-      "answer": "Mason = toast, Chloe = pancakes, Ben = cereal",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Mason, Chloe, and Ben each chose a different breakfast: toast, cereal, and pancakes.",
+        "clues": [
+          "Mason did not choose cereal.",
+          "Chloe chose pancakes.",
+          "Ben did not choose toast."
+        ],
+        "prompt": "Who chose what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nMason, Chloe, and Ben each chose a different breakfast: toast, cereal, and pancakes.\n\nClues:\n1. Mason did not choose cereal.\n2. Chloe chose pancakes.\n3. Ben did not choose toast.\n\nQuestion: Who chose what?",
+      "answer": "Mason = toast, Chloe = pancakes, Ben = cereal"
     },
     {
+      "id": "logic_037",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Sophie, Ava, and Liam each have a bike in blue, green, and black. Sophie does not have black. Ava has green. Liam does not have blue. Who has each bike?",
-      "answer": "Sophie = blue, Ava = green, Liam = black",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Sophie, Ava, and Liam each have a bike in blue, green, and black.",
+        "clues": [
+          "Sophie does not have black.",
+          "Ava has green.",
+          "Liam does not have blue."
+        ],
+        "prompt": "Who has each bike?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nSophie, Ava, and Liam each have a bike in blue, green, and black.\n\nClues:\n1. Sophie does not have black.\n2. Ava has green.\n3. Liam does not have blue.\n\nQuestion: Who has each bike?",
+      "answer": "Sophie = blue, Ava = green, Liam = black"
     },
     {
+      "id": "logic_038",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Ella, Noah, and Jack each picked one subject: math, art, and science. Ella did not pick science. Noah picked math. Jack did not pick art. Who picked what?",
-      "answer": "Ella = art, Noah = math, Jack = science",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ella, Noah, and Jack each picked one subject: math, art, and science.",
+        "clues": [
+          "Ella did not pick science.",
+          "Noah picked math.",
+          "Jack did not pick art."
+        ],
+        "prompt": "Who picked what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nElla, Noah, and Jack each picked one subject: math, art, and science.\n\nClues:\n1. Ella did not pick science.\n2. Noah picked math.\n3. Jack did not pick art.\n\nQuestion: Who picked what?",
+      "answer": "Ella = art, Noah = math, Jack = science"
     },
     {
+      "id": "logic_039",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Ruby, Leo, and Mia each have a favorite animal: tiger, panda, and dolphin. Ruby does not like dolphins. Leo likes pandas. Mia does not like tigers. Who likes what?",
-      "answer": "Ruby = tiger, Leo = panda, Mia = dolphin",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Ruby, Leo, and Mia each have a favorite animal: tiger, panda, and dolphin.",
+        "clues": [
+          "Ruby does not like dolphins.",
+          "Leo likes pandas.",
+          "Mia does not like tigers."
+        ],
+        "prompt": "Who likes what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nRuby, Leo, and Mia each have a favorite animal: tiger, panda, and dolphin.\n\nClues:\n1. Ruby does not like dolphins.\n2. Leo likes pandas.\n3. Mia does not like tigers.\n\nQuestion: Who likes what?",
+      "answer": "Ruby = tiger, Leo = panda, Mia = dolphin"
     },
     {
+      "id": "logic_040",
+      "type": "logic",
+      "difficulty": "easy",
       "question": "Finn, Chloe, and Owen each brought one toy: blocks, a kite, and a ball. Finn did not bring the ball. Chloe brought the kite. Owen did not bring the blocks. Who brought what?",
-      "answer": "Finn = blocks, Chloe = kite, Owen = ball",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Finn, Chloe, and Owen each brought one toy: blocks, a kite, and a ball.",
+        "clues": [
+          "Finn did not bring the ball.",
+          "Chloe brought the kite.",
+          "Owen did not bring the blocks."
+        ],
+        "prompt": "Who brought what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nFinn, Chloe, and Owen each brought one toy: blocks, a kite, and a ball.\n\nClues:\n1. Finn did not bring the ball.\n2. Chloe brought the kite.\n3. Owen did not bring the blocks.\n\nQuestion: Who brought what?",
+      "answer": "Finn = blocks, Chloe = kite, Owen = ball"
     },
     {
+      "id": "logic_041",
+      "type": "matching-logic",
+      "difficulty": "easy",
       "question": "Three boxes A, B, and C each contain one prize: a sticker, a toy, and a book. Box A does not have the book. Box B has the toy. Box C does not have the sticker. What is in each box?",
-      "answer": "Box A = sticker, Box B = toy, Box C = book",
-      "difficulty": "easy"
+      "ui": {
+        "setup": "Three boxes A, B, and C each contain one prize: a sticker, a toy, and a book.",
+        "clues": [
+          "Box A does not have the book.",
+          "Box B has the toy.",
+          "Box C does not have the sticker."
+        ],
+        "prompt": "What is in each box?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree boxes A, B, and C each contain one prize: a sticker, a toy, and a book.\n\nClues:\n1. Box A does not have the book.\n2. Box B has the toy.\n3. Box C does not have the sticker.\n\nQuestion: What is in each box?",
+      "answer": "Box A = sticker, Box B = toy, Box C = book"
     },
     {
-      "question": "Ava says Ben took the cookie. Ben says Cara took the cookie. Cara says Ben is lying. Only one person is telling the truth. Who took the cookie?",
-      "answer": "Ava",
-      "difficulty": "medium"
+      "id": "logic_042",
+      "type": "truth-logic",
+      "difficulty": "medium",
+      "question": "Ava says Ben took the cookie. Ben says Cara took the cookie. Cara says, 'I did not take the cookie.' Only one person is telling the truth, and Ava did not take the cookie. Who took the cookie?",
+      "ui": {
+        "setup": "Ava says Ben took the cookie.",
+        "clues": [
+          "Ben says Cara took the cookie.",
+          "Cara says, 'I did not take the cookie.' Only one person is telling the truth, and Ava did not take the cookie."
+        ],
+        "prompt": "Who took the cookie?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nAva says Ben took the cookie.\n\nClues:\n1. Ben says Cara took the cookie.\n2. Cara says, 'I did not take the cookie.' Only one person is telling the truth, and Ava did not take the cookie.\n\nQuestion: Who took the cookie?",
+      "answer": "Cara"
     },
     {
+      "id": "logic_043",
+      "type": "truth-logic",
+      "difficulty": "medium",
       "question": "Three boxes A, B, and C. A says: 'The coin is not in B.' B says: 'The coin is in C.' C says: 'The coin is not in C.' Only one statement is true. Where is the coin?",
-      "answer": "Box B",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "Three boxes A, B, and C.",
+        "clues": [
+          "A says: 'The coin is not in B.' B says: 'The coin is in C.' C says: 'The coin is not in C.' Only one statement is true."
+        ],
+        "prompt": "Where is the coin?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree boxes A, B, and C.\n\nClues:\n1. A says: 'The coin is not in B.' B says: 'The coin is in C.' C says: 'The coin is not in C.' Only one statement is true.\n\nQuestion: Where is the coin?",
+      "answer": "Box B"
     },
     {
+      "id": "logic_044",
+      "type": "logic",
+      "difficulty": "medium",
       "question": "There are three doors. One leads to fire, one to lions that have not eaten in 3 years, and one to poisonous gas. Which door is safest?",
-      "answer": "The door with the lions",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "There are three doors.",
+        "clues": [
+          "One leads to fire, one to lions that have not eaten in 3 years, and one to poisonous gas."
+        ],
+        "prompt": "Which door is safest?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThere are three doors.\n\nClues:\n1. One leads to fire, one to lions that have not eaten in 3 years, and one to poisonous gas.\n\nQuestion: Which door is safest?",
+      "answer": "The door with the lions"
     },
     {
+      "id": "logic_045",
+      "type": "reasoning-logic",
+      "difficulty": "medium",
       "question": "There are 3 switches controlling 1 light bulb in another room. You may enter the room only once. How do you find the correct switch?",
-      "answer": "Turn one switch on for a while, then turn it off. Turn a second switch on and enter the room. If the bulb is on, it is the second switch. If it is off but warm, it is the first. If it is off and cold, it is the third.",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "There are 3 switches controlling 1 light bulb in another room.",
+        "clues": [
+          "You may enter the room only once."
+        ],
+        "prompt": "How do you find the correct switch?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThere are 3 switches controlling 1 light bulb in another room.\n\nClues:\n1. You may enter the room only once.\n\nQuestion: How do you find the correct switch?",
+      "answer": "Turn one switch on for a while, then turn it off. Turn a second switch on and enter the room. If the bulb is on, it is the second switch. If it is off but warm, it is the first. If it is off and cold, it is the third."
     },
     {
+      "id": "logic_046",
+      "type": "truth-logic",
+      "difficulty": "medium",
       "question": "Ava says, 'Ben took the cookie.' Ben says, 'I did not take it.' Cara says, 'Ava is wrong.' Only one statement is true. Who took the cookie?",
-      "answer": "Ben",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "Ava says, 'Ben took the cookie.' Ben says, 'I did not take it.' Cara says, 'Ava is wrong.' Only one statement is true.",
+        "clues": [],
+        "prompt": "Who took the cookie?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nAva says, 'Ben took the cookie.' Ben says, 'I did not take it.' Cara says, 'Ava is wrong.' Only one statement is true.\n\nQuestion: Who took the cookie?",
+      "answer": "Ben"
     },
     {
-      "question": "Chest A says, 'The treasure is in B.' Chest B says, 'The treasure is not here.' Chest C says, 'The treasure is in A.' Only one statement is true. Where is the treasure?",
-      "answer": "Chest B",
-      "difficulty": "medium"
+      "id": "logic_047",
+      "type": "truth-logic",
+      "difficulty": "medium",
+      "question": "Chest A says, 'The treasure is in B.' Chest B says, 'The treasure is not here.' Chest C says, 'The treasure is in A.' Only one statement is true, and the treasure is not in C. Where is the treasure?",
+      "ui": {
+        "setup": "Chest A says, 'The treasure is in B.' Chest B says, 'The treasure is not here.' Chest C says, 'The treasure is in A.' Only one statement is true, and the treasure is not in C.",
+        "clues": [],
+        "prompt": "Where is the treasure?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nChest A says, 'The treasure is in B.' Chest B says, 'The treasure is not here.' Chest C says, 'The treasure is in A.' Only one statement is true, and the treasure is not in C.\n\nQuestion: Where is the treasure?",
+      "answer": "Chest B"
     },
     {
+      "id": "logic_048",
+      "type": "ordering-logic",
+      "difficulty": "medium",
       "question": "Three students—Mia, Jack, and Leo—are ranked first, second, and third. Mia is not first. Jack is ahead of Leo. Leo is not last. What is the order?",
-      "answer": "Jack = first, Leo = second, Mia = third",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "Three students—Mia, Jack, and Leo—are ranked first, second, and third.",
+        "clues": [
+          "Mia is not first.",
+          "Jack is ahead of Leo.",
+          "Leo is not last."
+        ],
+        "prompt": "What is the order?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree students—Mia, Jack, and Leo—are ranked first, second, and third.\n\nClues:\n1. Mia is not first.\n2. Jack is ahead of Leo.\n3. Leo is not last.\n\nQuestion: What is the order?",
+      "answer": "Jack = first, Leo = second, Mia = third"
     },
     {
+      "id": "logic_049",
+      "type": "matching-logic",
+      "difficulty": "medium",
       "question": "Three children—Ella, Sam, and Noah—each picked a different color marker: red, blue, and green. Ella did not pick blue. Sam did not pick red. Noah picked green. Who picked what?",
-      "answer": "Ella = red, Sam = blue, Noah = green",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "Three children—Ella, Sam, and Noah—each picked a different color marker: red, blue, and green.",
+        "clues": [
+          "Ella did not pick blue.",
+          "Sam did not pick red.",
+          "Noah picked green."
+        ],
+        "prompt": "Who picked what?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree children—Ella, Sam, and Noah—each picked a different color marker: red, blue, and green.\n\nClues:\n1. Ella did not pick blue.\n2. Sam did not pick red.\n3. Noah picked green.\n\nQuestion: Who picked what?",
+      "answer": "Ella = red, Sam = blue, Noah = green"
     },
     {
+      "id": "logic_050",
+      "type": "logic",
+      "difficulty": "medium",
       "question": "A school has three clubs: art, music, and chess. Mia did not join music. Owen joined chess. Tara did not join art. Who joined which club?",
-      "answer": "Mia = art, Owen = chess, Tara = music",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "A school has three clubs: art, music, and chess.",
+        "clues": [
+          "Mia did not join music.",
+          "Owen joined chess.",
+          "Tara did not join art."
+        ],
+        "prompt": "Who joined which club?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA school has three clubs: art, music, and chess.\n\nClues:\n1. Mia did not join music.\n2. Owen joined chess.\n3. Tara did not join art.\n\nQuestion: Who joined which club?",
+      "answer": "Mia = art, Owen = chess, Tara = music"
     },
     {
+      "id": "logic_051",
+      "type": "logic",
+      "difficulty": "medium",
       "question": "You have 8 identical balls, but one is slightly heavier. Using a balance scale only twice, how can you find the heavier ball?",
-      "answer": "Weigh 3 against 3. If one side is heavier, weigh 1 against 1 from that heavier group to find the heavy ball or the remaining one. If they balance, the heavy ball is among the 2 left; weigh 1 against 1.",
-      "difficulty": "medium"
+      "ui": {
+        "setup": "You have 8 identical balls, but one is slightly heavier.",
+        "clues": [],
+        "prompt": "Using a balance scale only twice, how can you find the heavier ball?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nYou have 8 identical balls, but one is slightly heavier.\n\nQuestion: Using a balance scale only twice, how can you find the heavier ball?",
+      "answer": "Weigh 3 against 3. If one side is heavier, weigh 1 against 1 from that heavier group to find the heavy ball or the remaining one. If they balance, the heavy ball is among the 2 left; weigh 1 against 1."
     },
     {
-      "question": "Three children—Alex, Ben, and Cara—each have a different number of marbles: 10, 15, and 20. Alex does not have 10. Ben has more marbles than Cara. Cara does not have 15. Who has how many?",
-      "answer": "Alex = 15, Ben = 20, Cara = 10",
-      "difficulty": "hard"
+      "id": "logic_052",
+      "type": "ordering-logic",
+      "difficulty": "hard",
+      "question": "Four children—Emma, Liam, Noah, and Ava—stand in a line. Emma is not first or last. Liam is ahead of Noah. Ava is last. Noah is not second. Who is first, second, third, and fourth?",
+      "ui": {
+        "setup": "Four children—Emma, Liam, Noah, and Ava—stand in a line.",
+        "clues": [
+          "Emma is not first or last.",
+          "Liam is ahead of Noah.",
+          "Ava is last.",
+          "Noah is not second."
+        ],
+        "prompt": "Who is first, second, third, and fourth?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nFour children—Emma, Liam, Noah, and Ava—stand in a line.\n\nClues:\n1. Emma is not first or last.\n2. Liam is ahead of Noah.\n3. Ava is last.\n4. Noah is not second.\n\nQuestion: Who is first, second, third, and fourth?",
+      "answer": "Liam = first, Emma = second, Noah = third, Ava = fourth"
     },
     {
+      "id": "logic_053",
+      "type": "ordering-logic",
+      "difficulty": "hard",
       "question": "Four children—Emma, Liam, Noah, and Ava—stand in a line. Emma is not first or last. Liam is ahead of Noah. Ava is last. Who is first, second, third, and fourth?",
-      "answer": "Liam = first, Emma = second, Noah = third, Ava = fourth",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "Four children—Emma, Liam, Noah, and Ava—stand in a line.",
+        "clues": [
+          "Emma is not first or last.",
+          "Liam is ahead of Noah.",
+          "Ava is last."
+        ],
+        "prompt": "Who is first, second, third, and fourth?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nFour children—Emma, Liam, Noah, and Ava—stand in a line.\n\nClues:\n1. Emma is not first or last.\n2. Liam is ahead of Noah.\n3. Ava is last.\n\nQuestion: Who is first, second, third, and fourth?",
+      "answer": "Liam = first, Emma = second, Noah = third, Ava = fourth"
     },
     {
+      "id": "logic_054",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "Three boxes contain apples, oranges, and bananas. Each box is labeled incorrectly: 'Apples,' 'Oranges,' and 'Mixed.' You may pick one fruit from one box. Which box should you pick from to identify all correctly?",
-      "answer": "Pick from the box labeled 'Mixed.' Since all labels are wrong, that box cannot be mixed, so one fruit tells you exactly what it is and lets you work out the others.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "Three boxes contain apples, oranges, and bananas.",
+        "clues": [
+          "Each box is labeled incorrectly: 'Apples,' 'Oranges,' and 'Mixed.' You may pick one fruit from one box."
+        ],
+        "prompt": "Which box should you pick from to identify all correctly?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree boxes contain apples, oranges, and bananas.\n\nClues:\n1. Each box is labeled incorrectly: 'Apples,' 'Oranges,' and 'Mixed.' You may pick one fruit from one box.\n\nQuestion: Which box should you pick from to identify all correctly?",
+      "answer": "Pick from the box labeled 'Mixed.' Since all labels are wrong, that box cannot be mixed, so one fruit tells you exactly what it is and lets you work out the others."
     },
     {
+      "id": "logic_055",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "A farmer has a fox, a chicken, and a bag of grain. He must cross a river but can carry only one at a time. The fox cannot be left with the chicken, and the chicken cannot be left with the grain. How does he cross safely?",
-      "answer": "Take the chicken across, return alone, take the fox across, bring the chicken back, take the grain across, return alone, then take the chicken across.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A farmer has a fox, a chicken, and a bag of grain.",
+        "clues": [
+          "He must cross a river but can carry only one at a time.",
+          "The fox cannot be left with the chicken, and the chicken cannot be left with the grain."
+        ],
+        "prompt": "How does he cross safely?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA farmer has a fox, a chicken, and a bag of grain.\n\nClues:\n1. He must cross a river but can carry only one at a time.\n2. The fox cannot be left with the chicken, and the chicken cannot be left with the grain.\n\nQuestion: How does he cross safely?",
+      "answer": "Take the chicken across, return alone, take the fox across, bring the chicken back, take the grain across, return alone, then take the chicken across."
     },
     {
+      "id": "logic_056",
+      "type": "reasoning-logic",
+      "difficulty": "hard",
       "question": "Three switches control three bulbs in another room. You can enter the room only once. How do you determine which switch controls which bulb?",
-      "answer": "Turn on switch 1 for a while, then turn it off. Turn on switch 2 and enter the room. The bulb that is on belongs to switch 2. The bulb that is off but warm belongs to switch 1. The bulb that is off and cold belongs to switch 3.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "Three switches control three bulbs in another room.",
+        "clues": [
+          "You can enter the room only once."
+        ],
+        "prompt": "How do you determine which switch controls which bulb?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree switches control three bulbs in another room.\n\nClues:\n1. You can enter the room only once.\n\nQuestion: How do you determine which switch controls which bulb?",
+      "answer": "Turn on switch 1 for a while, then turn it off. Turn on switch 2 and enter the room. The bulb that is on belongs to switch 2. The bulb that is off but warm belongs to switch 1. The bulb that is off and cold belongs to switch 3."
     },
     {
+      "id": "logic_057",
+      "type": "reasoning-logic",
+      "difficulty": "hard",
       "question": "A stopped clock shows the correct time twice a day. Another clock loses 1 minute every hour. Which clock is more accurate?",
-      "answer": "The stopped clock, because it is exactly correct twice every day. The slow clock is almost always wrong and drifts farther over time.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A stopped clock shows the correct time twice a day.",
+        "clues": [
+          "Another clock loses 1 minute every hour."
+        ],
+        "prompt": "Which clock is more accurate?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA stopped clock shows the correct time twice a day.\n\nClues:\n1. Another clock loses 1 minute every hour.\n\nQuestion: Which clock is more accurate?",
+      "answer": "The stopped clock, because it is exactly correct twice every day. The slow clock is almost always wrong and drifts farther over time."
     },
     {
+      "id": "logic_058",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "Five houses are in a row, each a different color. In each house lives a person of different nationality with a different pet, drink, and hobby. The Brit lives in the red house. The Swede has dogs. The Dane drinks tea. The green house is immediately left of the white house. The green house owner drinks coffee. The person who plays piano owns birds. The yellow house owner plays soccer. The middle house drinks milk. The Norwegian lives in the first house. The person who plays chess lives next to the one with cats. The person with horses lives next to the one who plays soccer. The person who plays basketball drinks juice. The German plays violin. The Norwegian lives next to the blue house. Who owns the fish?",
-      "answer": "The German",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "Five houses are in a row, each a different color.",
+        "clues": [
+          "In each house lives a person of different nationality with a different pet, drink, and hobby.",
+          "The Brit lives in the red house.",
+          "The Swede has dogs.",
+          "The Dane drinks tea.",
+          "The green house is immediately left of the white house.",
+          "The green house owner drinks coffee.",
+          "The person who plays piano owns birds.",
+          "The yellow house owner plays soccer.",
+          "The middle house drinks milk.",
+          "The Norwegian lives in the first house.",
+          "The person who plays chess lives next to the one with cats.",
+          "The person with horses lives next to the one who plays soccer.",
+          "The person who plays basketball drinks juice.",
+          "The German plays violin.",
+          "The Norwegian lives next to the blue house."
+        ],
+        "prompt": "Who owns the fish?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nFive houses are in a row, each a different color.\n\nClues:\n1. In each house lives a person of different nationality with a different pet, drink, and hobby.\n2. The Brit lives in the red house.\n3. The Swede has dogs.\n4. The Dane drinks tea.\n5. The green house is immediately left of the white house.\n6. The green house owner drinks coffee.\n7. The person who plays piano owns birds.\n8. The yellow house owner plays soccer.\n9. The middle house drinks milk.\n10. The Norwegian lives in the first house.\n11. The person who plays chess lives next to the one with cats.\n12. The person with horses lives next to the one who plays soccer.\n13. The person who plays basketball drinks juice.\n14. The German plays violin.\n15. The Norwegian lives next to the blue house.\n\nQuestion: Who owns the fish?",
+      "answer": "The German"
     },
     {
+      "id": "logic_059",
+      "type": "reasoning-logic",
+      "difficulty": "hard",
       "question": "You have two ropes that each take exactly 60 minutes to burn, but they burn unevenly. How can you measure exactly 45 minutes?",
-      "answer": "Light both ends of the first rope and one end of the second rope. When the first rope burns out, 30 minutes have passed. Then light the other end of the second rope. It will burn out in 15 more minutes, for a total of 45 minutes.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "You have two ropes that each take exactly 60 minutes to burn, but they burn unevenly.",
+        "clues": [],
+        "prompt": "How can you measure exactly 45 minutes?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nYou have two ropes that each take exactly 60 minutes to burn, but they burn unevenly.\n\nQuestion: How can you measure exactly 45 minutes?",
+      "answer": "Light both ends of the first rope and one end of the second rope. When the first rope burns out, 30 minutes have passed. Then light the other end of the second rope. It will burn out in 15 more minutes, for a total of 45 minutes."
     },
     {
+      "id": "logic_060",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?",
-      "answer": "His son",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?",
+        "clues": [],
+        "prompt": "A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?\n\nQuestion: A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?",
+      "answer": "5:36 PM"
     },
     {
+      "id": "logic_061",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "Three people check into a hotel room costing $30. They each pay $10. Later, the clerk realizes the room costs $25 and gives $5 to the bellboy. The bellboy keeps $2 and gives $1 back to each guest. Now each guest paid $9, for a total of $27, and the bellboy kept $2, making $29. Where is the missing dollar?",
-      "answer": "There is no missing dollar. The $27 already includes the $2 the bellboy kept. The correct breakdown is $25 to the hotel + $2 to the bellboy + $3 returned to the guests = $30.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "Three people check into a hotel room costing $30.",
+        "clues": [
+          "They each pay $10.",
+          "Later, the clerk realizes the room costs $25 and gives $5 to the bellboy.",
+          "The bellboy keeps $2 and gives $1 back to each guest.",
+          "Now each guest paid $9, for a total of $27, and the bellboy kept $2, making $29."
+        ],
+        "prompt": "Where is the missing dollar?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThree people check into a hotel room costing $30.\n\nClues:\n1. They each pay $10.\n2. Later, the clerk realizes the room costs $25 and gives $5 to the bellboy.\n3. The bellboy keeps $2 and gives $1 back to each guest.\n4. Now each guest paid $9, for a total of $27, and the bellboy kept $2, making $29.\n\nQuestion: Where is the missing dollar?",
+      "answer": "There is no missing dollar. The $27 already includes the $2 the bellboy kept. The correct breakdown is $25 to the hotel + $2 to the bellboy + $3 returned to the guests = $30."
     },
     {
+      "id": "logic_062",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "A train leaves City A at 3 PM traveling 60 mph. Another leaves City B at 4 PM traveling 90 mph toward City A. The cities are 300 miles apart. When do they meet?",
-      "answer": "At 5 PM. By 4 PM, the first train has gone 60 miles, leaving 240 miles. Their combined speed is 150 mph, so they meet in 240 ÷ 150 = 1.6 hours after 4 PM? Wait—that would be 5:36 PM, so 5 PM is incorrect. The correct answer is 5:36 PM.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A train leaves City A at 3 PM traveling 60 mph.",
+        "clues": [
+          "Another leaves City B at 4 PM traveling 90 mph toward City A.",
+          "The cities are 300 miles apart."
+        ],
+        "prompt": "When do they meet?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA train leaves City A at 3 PM traveling 60 mph.\n\nClues:\n1. Another leaves City B at 4 PM traveling 90 mph toward City A.\n2. The cities are 300 miles apart.\n\nQuestion: When do they meet?",
+      "answer": "At 5 PM. By 4 PM, the first train has gone 60 miles, leaving 240 miles. Their combined speed is 150 mph, so they meet in 240 ÷ 150 = 1.6 hours after 4 PM? Wait—that would be 5:36 PM, so 5 PM is incorrect. The correct answer is 5:36 PM."
     },
     {
+      "id": "logic_063",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "A man lives on the 10th floor. Every day he takes the elevator to the ground floor. When returning, he goes only to the 7th floor and walks up the rest, except on rainy days when he goes to the 10th floor. Why?",
-      "answer": "He is short and cannot reach the 10th-floor button, but on rainy days he uses his umbrella to press it.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A man lives on the 10th floor.",
+        "clues": [
+          "Every day he takes the elevator to the ground floor."
+        ],
+        "prompt": "When returning, he goes only to the 7th floor and walks up the rest, except on rainy days when he goes to the 10th floor."
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA man lives on the 10th floor.\n\nClues:\n1. Every day he takes the elevator to the ground floor.\n\nQuestion: When returning, he goes only to the 7th floor and walks up the rest, except on rainy days when he goes to the 10th floor.",
+      "answer": "He is short and cannot reach the 10th-floor button, but on rainy days he uses his umbrella to press it."
     },
     {
+      "id": "logic_064",
+      "type": "reasoning-logic",
+      "difficulty": "hard",
       "question": "You have a 3-liter jug and a 5-liter jug. How do you measure exactly 4 liters?",
-      "answer": "Fill the 5-liter jug and pour into the 3-liter jug, leaving 2 liters in the 5-liter jug. Empty the 3-liter jug and pour the 2 liters into it. Refill the 5-liter jug and pour into the 3-liter jug until it is full, which takes 1 more liter. That leaves exactly 4 liters in the 5-liter jug.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "You have a 3-liter jug and a 5-liter jug.",
+        "clues": [],
+        "prompt": "How do you measure exactly 4 liters?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nYou have a 3-liter jug and a 5-liter jug.\n\nQuestion: How do you measure exactly 4 liters?",
+      "answer": "Fill the 5-liter jug and pour into the 3-liter jug, leaving 2 liters in the 5-liter jug. Empty the 3-liter jug and pour the 2 liters into it. Refill the 5-liter jug and pour into the 3-liter jug until it is full, which takes 1 more liter. That leaves exactly 4 liters in the 5-liter jug."
     },
     {
+      "id": "logic_065",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "Two fathers and two sons go fishing. They catch 3 fish, yet each person gets one fish. How is that possible?",
-      "answer": "They are three people: a grandfather, a father, and a son.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "Two fathers and two sons go fishing.",
+        "clues": [
+          "They catch 3 fish, yet each person gets one fish."
+        ],
+        "prompt": "How is that possible?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nTwo fathers and two sons go fishing.\n\nClues:\n1. They catch 3 fish, yet each person gets one fish.\n\nQuestion: How is that possible?",
+      "answer": "They are three people: a grandfather, a father, and a son."
     },
     {
+      "id": "logic_066",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "A woman has 7 children. Half are boys. How is this possible?",
-      "answer": "All 7 are boys. Half can still be boys if more than half are boys.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A woman has 7 children.",
+        "clues": [
+          "Half are boys."
+        ],
+        "prompt": "How is this possible?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA woman has 7 children.\n\nClues:\n1. Half are boys.\n\nQuestion: How is this possible?",
+      "answer": "All 7 are boys. Half can still be boys if more than half are boys."
     },
     {
+      "id": "logic_067",
+      "type": "reasoning-logic",
+      "difficulty": "hard",
       "question": "There are 100 lockers, all closed. Person 1 toggles every locker. Person 2 toggles every 2nd locker. Person 3 toggles every 3rd locker, and so on up to person 100. Which lockers remain open?",
-      "answer": "The lockers with perfect square numbers remain open: 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "There are 100 lockers, all closed.",
+        "clues": [
+          "Person 1 toggles every locker.",
+          "Person 2 toggles every 2nd locker.",
+          "Person 3 toggles every 3rd locker, and so on up to person 100."
+        ],
+        "prompt": "Which lockers remain open?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nThere are 100 lockers, all closed.\n\nClues:\n1. Person 1 toggles every locker.\n2. Person 2 toggles every 2nd locker.\n3. Person 3 toggles every 3rd locker, and so on up to person 100.\n\nQuestion: Which lockers remain open?",
+      "answer": "The lockers with perfect square numbers remain open: 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100."
     },
     {
+      "id": "logic_068",
+      "type": "reasoning-logic",
+      "difficulty": "hard",
       "question": "A cube is painted on all 6 sides and then cut into 27 smaller equal cubes. How many small cubes have exactly 2 faces painted?",
-      "answer": "12. These are the edge-center cubes: each of the 12 edges contributes 1 such cube.",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A cube is painted on all 6 sides and then cut into 27 smaller equal cubes.",
+        "clues": [],
+        "prompt": "How many small cubes have exactly 2 faces painted?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA cube is painted on all 6 sides and then cut into 27 smaller equal cubes.\n\nQuestion: How many small cubes have exactly 2 faces painted?",
+      "answer": "12. These are the edge-center cubes: each of the 12 edges contributes 1 such cube."
     },
     {
+      "id": "logic_069",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "A bat and a ball cost $1.10 total. The bat costs $1 more than the ball. How much does the ball cost?",
-      "answer": "$0.05",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "A bat and a ball cost $1.10 total.",
+        "clues": [
+          "The bat costs $1 more than the ball."
+        ],
+        "prompt": "How much does the ball cost?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nA bat and a ball cost $1.10 total.\n\nClues:\n1. The bat costs $1 more than the ball.\n\nQuestion: How much does the ball cost?",
+      "answer": "$0.05"
     },
     {
+      "id": "logic_070",
+      "type": "logic",
+      "difficulty": "hard",
       "question": "You are in a dark room with a candle, a fireplace, and a gas lamp. You have one match. What do you light first?",
-      "answer": "The match",
-      "difficulty": "hard"
+      "ui": {
+        "setup": "You are in a dark room with a candle, a fireplace, and a gas lamp.",
+        "clues": [
+          "You have one match."
+        ],
+        "prompt": "What do you light first?"
+      },
+      "ui_text": "🧠 Logic Puzzle\n\nSetup:\nYou are in a dark room with a candle, a fireplace, and a gas lamp.\n\nClues:\n1. You have one match.\n\nQuestion: What do you light first?",
+      "answer": "The match"
     }
   ]
 }
