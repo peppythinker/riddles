@@ -1155,5 +1155,148 @@
       "ui_text": "🧠 Logic Puzzle\n\nSetup:\nYou are in a dark room with a candle, a fireplace, and a gas lamp.\n\nClues:\n1. You have one match.\n\nQuestion: What do you light first?",
       "answer": "The match"
     }
+
+,
+{
+  "id": "logic_068",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man is found dead in a room with no windows and a locked door.",
+    "clues": [
+      "There is a puddle of water on the floor.",
+      "There is no sign of violence.",
+      "The only object in the room is a chair."
+    ],
+    "prompt": "What happened?"
+  },
+  "answer": "He was standing on a block of ice that melted."
+},
+{
+  "id": "logic_069",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A woman walks into a restaurant and orders soup.",
+    "clues": [
+      "She takes one bite and immediately runs out screaming.",
+      "She later realizes something shocking."
+    ],
+    "prompt": "What happened?"
+  },
+  "answer": "She realized she had been eating human flesh before."
+},
+{
+  "id": "logic_070",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man turns off the lights in a building and leaves.",
+    "clues": [
+      "The next day, many people are dead.",
+      "He did nothing else."
+    ],
+    "prompt": "What happened?"
+  },
+  "answer": "He turned off a lighthouse, causing ships to crash."
+},
+{
+  "id": "logic_071",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man is found hanging from the ceiling.",
+    "clues": [
+      "There is a puddle of water beneath him.",
+      "There are no chairs or ladders nearby."
+    ],
+    "prompt": "How did he do it?"
+  },
+  "answer": "He stood on a block of ice which melted."
+},
+{
+  "id": "logic_072",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man lives on the 10th floor.",
+    "clues": [
+      "Every day he takes the elevator down.",
+      "When returning, he only goes to the 7th floor and walks up.",
+      "On rainy days, he goes all the way to the 10th floor."
+    ],
+    "prompt": "Why?"
+  },
+  "answer": "He is short and cannot reach the 10th floor button, but uses his umbrella on rainy days."
+},
+{
+  "id": "logic_073",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A woman is found dead in the desert.",
+    "clues": [
+      "She is holding a matchstick.",
+      "There are no footprints nearby."
+    ],
+    "prompt": "What happened?"
+  },
+  "answer": "She was in a hot air balloon that was losing weight, and they drew matches to decide who must jump."
+},
+{
+  "id": "logic_074",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man pushes his car to a hotel and loses all his money.",
+    "clues": [],
+    "prompt": "Why?"
+  },
+  "answer": "He is playing Monopoly."
+},
+{
+  "id": "logic_075",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man wakes up and looks out the window.",
+    "clues": [
+      "He immediately jumps to his death.",
+      "There is no danger outside."
+    ],
+    "prompt": "Why?"
+  },
+  "answer": "He is blind and realizes he can suddenly see, meaning he must be dreaming and not really alive."
+},
+{
+  "id": "logic_076",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man is found dead in a field.",
+    "clues": [
+      "He is wearing a backpack.",
+      "There is no injury."
+    ],
+    "prompt": "What happened?"
+  },
+  "answer": "His parachute failed to open."
+},
+{
+  "id": "logic_077",
+  "type": "mystery-case",
+  "difficulty": "medium",
+  "ui": {
+    "setup": "A man is found dead at his desk.",
+    "clues": [
+      "There is a calendar in front of him.",
+      "The dates are circled repeatedly."
+    ],
+    "prompt": "What happened?"
+  },
+  "answer": "He was trapped in a time loop and eventually died."
+}
+
+    
   ]
 }
