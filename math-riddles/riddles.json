@@ -1,78 +1,306 @@
 [
   { "question": "I am an odd number. Take away one letter and I become even. What number am I?", "answer": "Seven." },
-  { "question": "What number comes next: 2, 4, 8, 16, ?", "answer": "32." },
-  { "question": "What number comes next: 1, 3, 5, 7, ?", "answer": "9." },
-  { "question": "What number comes next: 3, 6, 9, 12, ?", "answer": "15." },
-  { "question": "What number comes next: 10, 20, 30, ?", "answer": "40." },
-  { "question": "What number comes next: 2, 3, 5, 7, ?", "answer": "11." },
-  { "question": "What number comes next: 5, 10, 15, ?", "answer": "20." },
-  { "question": "What number comes before 1?", "answer": "0." },
-  { "question": "What number comes after 49?", "answer": "50." },
-  { "question": "What number comes after 99?", "answer": "100." },
-
-  { "question": "What number is between 5 and 7?", "answer": "6." },
-  { "question": "What number is between 10 and 12?", "answer": "11." },
-  { "question": "What number is between 20 and 22?", "answer": "21." },
-  { "question": "What number is one more than 19?", "answer": "20." },
-  { "question": "What number is one less than 100?", "answer": "99." },
-  { "question": "What number is double of 7?", "answer": "14." },
-  { "question": "What number is double of 9?", "answer": "18." },
-  { "question": "What number is double of 11?", "answer": "22." },
-  { "question": "What number is double of 12?", "answer": "24." },
-  { "question": "What number is triple of 3?", "answer": "9." },
-
-  { "question": "What number is triple of 4?", "answer": "12." },
-  { "question": "What number is triple of 5?", "answer": "15." },
-  { "question": "What number is half of 20?", "answer": "10." },
-  { "question": "What number is half of 50?", "answer": "25." },
-  { "question": "What is half of 100?", "answer": "50." },
   { "question": "What number has the same number of letters as its value?", "answer": "Four." },
   { "question": "I am a two-digit number. My digits add up to 10. What could I be?", "answer": "19, 28, 37, 46, 55, 64, 73, 82, or 91." },
   { "question": "I am a number greater than 10 but less than 20. I am even. What could I be?", "answer": "12, 14, 16, or 18." },
   { "question": "If you count by twos starting at 2, what comes after 8?", "answer": "10." },
   { "question": "If you have three apples and take away two, how many do you have?", "answer": "Two." },
+  {
+    "question": "Using only addition, add eight 8s to get 1,000.",
+    "answer": "888 + 88 + 8 + 8 + 8 = 1,000."
+  },
+  {
+    "question": "Two years ago, I was three times as old as my brother was. In three years, I will be twice as old as my brother. How old are we now?",
+    "answer": "I am 12 and my brother is 5."
+  },
+  {
+    "question": "A bat and a ball cost $1.10 in total. The bat costs $1 more than the ball. How much does the ball cost?",
+    "answer": "5 cents."
+  },
+  {
+    "question": "If two fathers and two sons share 3 apples so that each gets one whole apple, how is that possible?",
+    "answer": "They are a grandfather, a father, and a son."
+  },
+  {
+    "question": "How can you make the number 7 even?",
+    "answer": "Remove the letter s from seven."
+  },
+  {
+    "question": "I am an odd number. Take away one letter and I become even. What number am I?",
+    "answer": "Seven."
+  },
+  {
+    "question": "A farmer has 17 sheep. All but 9 run away. How many are left?",
+    "answer": "9."
+  },
+  {
+    "question": "You have 3 apples and you take away 2. How many do you have?",
+    "answer": "2."
+  },
+  {
+    "question": "There are 12 months in a year. How many of them have 28 days?",
+    "answer": "All 12."
+  },
+  {
+    "question": "Which is heavier: a pound of feathers or a pound of bricks?",
+    "answer": "They weigh the same."
+  },
+  {
+    "question": "A clock strikes once at 1, twice at 2, and so on. How many strikes does it make in one day?",
+    "answer": "156."
+  },
+  {
+    "question": "How many times can you subtract 10 from 100?",
+    "answer": "Once. After that, you are subtracting 10 from 90."
+  },
+  {
+    "question": "What 3 positive numbers give the same result when multiplied and added together?",
+    "answer": "1, 2, and 3."
+  },
+  {
+    "question": "How many sides does a circle have?",
+    "answer": "Two: inside and outside."
+  },
+  {
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would 100 machines take to make 100 widgets?",
+    "answer": "5 minutes."
+  },
+  {
+    "question": "A snail climbs a 10-foot wall. Each day it climbs 3 feet and each night it slips back 2 feet. How many days does it take to reach the top?",
+    "answer": "8 days."
+  },
+  {
+    "question": "A man is twice as old as his little sister. In 6 years, he will be 1.5 times as old as she is. How old are they now?",
+    "answer": "18 and 9."
+  },
+  {
+    "question": "If you write down all the whole numbers from 1 to 100, how many times do you write the digit 9?",
+    "answer": "20 times."
+  },
+  {
+    "question": "What is unusual about the numbers 1 through 999?",
+    "answer": "The letter a does not appear in any of their names."
+  },
+  {
+    "question": "How can four 9s make 100?",
+    "answer": "99 + 9/9 = 100."
+  },
+  {
+    "question": "How can four 4s make 20?",
+    "answer": "4 × 4 + 4 + 4 = 20."
+  },
+  {
+    "question": "How can five 1s make 14?",
+    "answer": "11 + 1 + 1 + 1 = 14."
+  },
+  {
+    "question": "How can three 5s make 30?",
+    "answer": "5 + 5 × 5 = 30."
+  },
+  {
+    "question": "What is the smallest number that increases by 12 when its digits are reversed?",
+    "answer": "39."
+  },
+  {
+    "question": "What is the smallest whole number that equals the sum of its digits times 3?",
+    "answer": "12."
+  },
+  {
+    "question": "What 2-digit number has digits that add to 9 and multiply to 20?",
+    "answer": "45."
+  },
+  {
+    "question": "I am a 2-digit number. My tens digit is twice my ones digit. My digits add to 12. What number am I?",
+    "answer": "84."
+  },
+  {
+    "question": "I am a 2-digit number. When my digits are reversed, the new number is 27 less than me. What number could I be?",
+    "answer": "41, 52, 63, 74, 85, or 96."
+  },
+  {
+    "question": "I am a 2-digit number. The sum of my digits is 10, and the difference between my digits is 4. What number could I be?",
+    "answer": "73 or 37."
+  },
+  {
+    "question": "What is the only number that has the same number of letters as its value?",
+    "answer": "Four."
+  },
+  {
+    "question": "Which 3 consecutive numbers have a sum of 72?",
+    "answer": "23, 24, and 25."
+  },
+  {
+    "question": "Which 5 consecutive numbers have a sum of 100?",
+    "answer": "18, 19, 20, 21, and 22."
+  },
+  {
+    "question": "Which 2 consecutive odd numbers have a sum of 40?",
+    "answer": "19 and 21."
+  },
+  {
+    "question": "Which 2 consecutive even numbers have a sum of 34?",
+    "answer": "16 and 18."
+  },
+  {
+    "question": "A father is 30 years older than his son. In 5 years, he will be 3 times as old as his son. How old are they now?",
+    "answer": "40 and 10."
+  },
+  {
+    "question": "A man is 4 times as old as his son. In 12 years, he will be twice as old. How old are they now?",
+    "answer": "24 and 6."
+  },
+  {
+    "question": "A woman is 3 times as old as her daughter. In 10 years, she will be twice as old. How old are they now?",
+    "answer": "20 and 10."
+  },
+  {
+    "question": "I have a brother. We are both the same age. How is that possible?",
+    "answer": "We are twins."
+  },
+  {
+    "question": "What is the smallest positive number that is evenly divisible by 2, 3, 4, 5, and 6?",
+    "answer": "60."
+  },
+  {
+    "question": "What is the smallest number divisible by 9 whose digits add to 9?",
+    "answer": "9."
+  },
+  {
+    "question": "What is the smallest 3-digit number whose digits add to 25?",
+    "answer": "799."
+  },
+  {
+    "question": "What is the largest 2-digit prime number?",
+    "answer": "97."
+  },
+  {
+    "question": "What is the smallest square number greater than 50?",
+    "answer": "64."
+  },
+  {
+    "question": "What is the smallest cube number greater than 30?",
+    "answer": "64."
+  },
+  {
+    "question": "What is the only even prime number?",
+    "answer": "2."
+  },
+  {
+    "question": "How many zeros are there in one thousand?",
+    "answer": "Three."
+  },
+  {
+    "question": "What 2 numbers have a product of 36 and a sum of 13?",
+    "answer": "4 and 9."
+  },
+  {
+    "question": "What 2 numbers have a product of 24 and a difference of 2?",
+    "answer": "4 and 6."
+  },
+  {
+    "question": "What 2 numbers have a sum of 15 and a product of 56?",
+    "answer": "7 and 8."
+  },
+  {
+    "question": "What 2 numbers have a sum of 9 and a product of 20?",
+    "answer": "4 and 5."
+  },
+  {
+    "question": "How many handshakes happen if 5 people each shake hands once with every other person?",
+    "answer": "10."
+  },
+  {
+    "question": "How many handshakes happen if 8 people each shake hands once with every other person?",
+    "answer": "28."
+  },
+  {
+    "question": "If 6 people are in a room and each shakes hands with every other person once, how many handshakes happen?",
+    "answer": "15."
+  },
+  {
+    "question": "There are 3 red socks, 3 blue socks, and 3 green socks in a drawer. How many socks must you take to guarantee a matching pair?",
+    "answer": "4."
+  },
+  {
+    "question": "There are 4 red marbles, 4 blue marbles, and 4 yellow marbles in a bag. How many must you draw to guarantee 2 of the same color?",
+    "answer": "4."
+  },
+  {
+    "question": "You have 2 coins that add to 30 cents, and one of them is not a nickel. What are the coins?",
+    "answer": "A quarter and a nickel."
+  },
+  {
+    "question": "In a race, you pass the runner in second place. What place are you in now?",
+    "answer": "Second place."
+  },
+  {
+    "question": "A family has 5 sons. Each son has 1 sister. How many children are there?",
+    "answer": "6."
+  },
+  {
+    "question": "A boy has as many sisters as brothers. His sister has twice as many brothers as sisters. How many boys are in the family?",
+    "answer": "4."
+  },
+  {
+    "question": "A classroom has 4 corners. In each corner sits a cat. In front of each cat are 3 cats. How many cats are there?",
+    "answer": "4."
+  },
+  {
+    "question": "There are 3 boxes labeled Apples, Oranges, and Mixed. Every label is wrong. Which box should you pick from first?",
+    "answer": "The box labeled Mixed."
+  },
+  {
+    "question": "What is the fewest number of straight lines needed to pass through all 9 dots in a 3×3 pattern without lifting your pencil?",
+    "answer": "4."
+  },
+  {
+    "question": "A cube is painted on the outside and cut into 27 equal smaller cubes. How many small cubes have paint on exactly 3 faces?",
+    "answer": "8."
+  },
+  {
+    "question": "If a hen and a half lays an egg and a half in a day and a half, how many eggs do 3 hens lay in 3 days?",
+    "answer": "6 eggs."
+  },
+  {
+    "question": "A number plus its reverse equals 121. Name one possible 2-digit number.",
+    "answer": "29, because 29 + 92 = 121."
+  },
+  {
+    "question": "If the day before yesterday was Thursday, what day is it today?",
+    "answer": "Saturday."
+  },
+  {
+    "question": "What is the smallest whole number greater than 7 but less than 8?",
+    "answer": "There isn't one."
+  },
+  {
+    "question": "Write 100 as five equal numbers.",
+    "answer": "20 + 20 + 20 + 20 + 20 = 100."
+  },
+  {
+    "question": "A mother is 21 years older than her child. In 6 years, the mother will be 5 times as old. Where is the father?",
+    "answer": "The child has not been born yet, so the father is presumably with the mother."
+  },
+  {
+    "question": "What is the next number after 10 that is both a square and a cube?",
+    "answer": "64."
+  },
+  {
+    "question": "If you have one dozen eggs and break all but 7, how many eggs are left unbroken?",
+    "answer": "7."
+  },
+  {
+    "question": "What is the smallest positive integer that is divisible by every number from 1 to 5?",
+    "answer": "60."
+  },
+  {
+    "question": "How can you split 8 apples among 3 people so that each gets an odd number of apples?",
+    "answer": "Give 3 apples to one person, 3 to another, and 2 apples in a bag to the third person. Each person gets an odd number of items."
+  },
+  {
+    "question": "A father and son together are 66 years old. The father’s age is the son’s age reversed. How old could they be?",
+    "answer": "51 and 15, 42 and 24, or 60 and 6."
+  }
 
-  { "question": "What is 3 squared?", "answer": "9." },
-  { "question": "What is 5 × 5?", "answer": "25." },
-  { "question": "What is 6 × 6?", "answer": "36." },
-  { "question": "What is 10 × 10?", "answer": "100." },
-  { "question": "What is 100 divided by 10?", "answer": "10." },
-  { "question": "What is 100 divided by 5?", "answer": "20." },
-  { "question": "What is 20 divided by 2?", "answer": "10." },
-  { "question": "What is 30 divided by 3?", "answer": "10." },
-  { "question": "What is 40 divided by 4?", "answer": "10." },
-  { "question": "What is 50 divided by 5?", "answer": "10." },
 
-  { "question": "What is 90 divided by 9?", "answer": "10." },
-  { "question": "What is 81 divided by 9?", "answer": "9." },
-  { "question": "What is 72 divided by 8?", "answer": "9." },
-  { "question": "What is 45 divided by 9?", "answer": "5." },
-  { "question": "What is 27 divided by 3?", "answer": "9." },
-  { "question": "What is 18 divided by 2?", "answer": "9." },
-  { "question": "What is 25 divided by 5?", "answer": "5." },
-  { "question": "What is 2 × 10?", "answer": "20." },
-  { "question": "What is 3 × 7?", "answer": "21." },
-  { "question": "What is 4 × 9?", "answer": "36." },
-
-  { "question": "What is 5 × 8?", "answer": "40." },
-  { "question": "What is 6 × 7?", "answer": "42." },
-  { "question": "What is 7 × 3?", "answer": "21." },
-  { "question": "What is 7 × 4?", "answer": "28." },
-  { "question": "What is 8 × 4?", "answer": "32." },
-  { "question": "What is 9 × 2?", "answer": "18." },
-  { "question": "What is 7 + 8?", "answer": "15." },
-  { "question": "What is 9 + 9?", "answer": "18." },
-  { "question": "What is 11 + 11?", "answer": "22." },
-  { "question": "What is 12 + 8?", "answer": "20." },
-
-  { "question": "What is 13 + 7?", "answer": "20." },
-  { "question": "What is 15 minus 5?", "answer": "10." },
-  { "question": "What is 16 minus 8?", "answer": "8." },
-  { "question": "What is 14 minus 7?", "answer": "7." },
-  { "question": "What is 12 minus 4?", "answer": "8." },
-  { "question": "What is 10 minus 3?", "answer": "7." },
-  { "question": "What is 9 + 1?", "answer": "10." },
-  { "question": "What is 8 + 2?", "answer": "10." },
-  { "question": "What is 8 minus 2?", "answer": "6." },
-  { "question": "What is 6 + 6?", "answer": "12." }
 ]
