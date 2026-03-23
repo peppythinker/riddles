@@ -1,7 +1,6 @@
 [
   { "question": "A woman points to a man in a photograph and says, 'Brothers and sisters, I have none. But that man’s father is my father’s son.' Who is in the photograph?", "answer": "Her son" },
   { "question": "You walk into a room with a match, an oil lamp, a candle, and a fireplace. What do you light first?", "answer": "The match" },
-  { "question": "A man gave one son 10 cents and another son was given 15 cents. What time is it?", "answer": "Time to get a new clock (trick question)" },
   { "question": "A girl fell off a 20-foot ladder but didn’t get hurt. How?", "answer": "She fell from the bottom step" },
   { "question": "What can you hold in your right hand but never in your left?", "answer": "Your left hand" },
   { "question": "A man left home running, made three left turns, and returned home. Who was wearing a mask?", "answer": "The catcher (baseball)" },
@@ -22,7 +21,7 @@
   { "question": "A man is caught in rain but his hair stays dry. Why?", "answer": "He is bald" },
   { "question": "A man drives in complete darkness but sees a woman. How?", "answer": "It is daytime" },
 
-  { "question": "You have 3 switches and 1 bulb. How do you find the correct switch?", "answer": "Turn one on for a while, then switch; use heat to identify" },
+  { "question": "You have 3 switches and 1 bulb. How do you find the correct switch?", "answer": "Use heat from bulb to identify" },
   { "question": "A girl has as many brothers as sisters, but each brother has half as many brothers. How many siblings?", "answer": "4 sisters and 3 brothers" },
 
   { "question": "A woman has three daughters, each with one brother. How many children?", "answer": "4" },
@@ -54,5 +53,16 @@
   { "question": "Electric train — where does smoke go?", "answer": "No smoke" },
   { "question": "9 coins, one heavier, 2 weighings.", "answer": "Weigh groups of 3 strategy" },
   { "question": "Three people rush to sleeping person when phone rings. Why?", "answer": "Sleepwalking" },
-  { "question": "10 fish, 3 drown. How many left?", "answer": "10" }
+  { "question": "10 fish, 3 drown. How many left?", "answer": "10" },
+
+  { "question": "What has to be broken before you can use it?", "answer": "An egg" },
+  { "question": "I’m tall when I’m young, and I’m short when I’m old. What am I?", "answer": "A candle" },
+  { "question": "What month has 28 days?", "answer": "All of them" },
+  { "question": "What is full of holes but still holds water?", "answer": "A sponge" },
+  { "question": "What can you break without touching it?", "answer": "A promise" },
+  { "question": "What gets wet while drying?", "answer": "A towel" },
+  { "question": "What belongs to you but others use it more?", "answer": "Your name" },
+  { "question": "What can’t talk but replies when spoken to?", "answer": "An echo" },
+  { "question": "The more of it there is, the less you see. What is it?", "answer": "Darkness" },
+  { "question": "What can travel around the world while staying in one corner?", "answer": "A stamp" }
 ]
