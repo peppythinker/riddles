@@ -267,3 +267,47 @@ h1 {
     width: 100%;
   }
 }
+
+
+
+/* =========================
+   For Think Logic Clues
+========================= */
+.clue-toggle-btn,
+.reveal-clue-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clue-toggle-btn {
+  background: #eef2f7;
+  color: #222;
+  width: 100%;
+  text-align: left;
+}
+
+.reveal-clue-btn {
+  background: #222;
+  color: white;
+  margin-top: 10px;
+}
+
+.clues-panel {
+  margin-top: 10px;
+  padding: 12px;
+  background: #f7f9fc;
+  border-radius: 12px;
+}
+
+.all-clues-shown {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #777;
+  font-weight: 600;
+}
