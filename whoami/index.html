@@ -3,15 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Who Am I? | Riddle World</title>
+  <title>Who Am I? | Riddle World</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css?v=3">
-  
-  <div class="page-emoji">🧑‍🎭</div>
-<h1>Who Am I?</h1>
-<p class="subtitle">Reveal clues and guess who or what it is</p>
-<div class="riddle-label" id="riddleLabel">Who Am I?</div>
-<button class="share-btn" onclick="shareRiddle()">🔗 Share Puzzle</button>
+</head>
+<body>
+  <div class="container page-container">
+    <a href="../index.html" class="back-link">← Back to Categories</a>
+
+    <div class="page-header">
+      <div class="page-emoji">🧑‍🎭</div>
+      <h1>Who Am I?</h1>
+      <p class="subtitle">Guess from clever clues</p>
+    </div>
+
+    <div class="riddle-card">
+      <div class="riddle-label" id="riddleLabel">Who Am I?</div>
+
+      <h2 class="riddle-question">Loading...</h2>
+
+      <div class="action-row">
+        <button class="answer-btn" onclick="toggleAnswer()">Show Answer</button>
+        <button class="share-btn" onclick="shareRiddle()">🔗 Share Puzzle</button>
       </div>
 
       <div class="answer-box" id="answerBox"></div>
