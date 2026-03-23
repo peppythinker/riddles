@@ -1,68 +1,362 @@
 [
-  { "question": "A woman points to a man in a photograph and says, 'Brothers and sisters, I have none. But that man’s father is my father’s son.' Who is in the photograph?", "answer": "Her son" },
-  { "question": "You walk into a room with a match, an oil lamp, a candle, and a fireplace. What do you light first?", "answer": "The match" },
-  { "question": "A girl fell off a 20-foot ladder but didn’t get hurt. How?", "answer": "She fell from the bottom step" },
-  { "question": "What can you hold in your right hand but never in your left?", "answer": "Your left hand" },
-  { "question": "A man left home running, made three left turns, and returned home. Who was wearing a mask?", "answer": "The catcher (baseball)" },
-  { "question": "A man shaves several times a day, yet still has a beard. How?", "answer": "He is a barber" },
-  { "question": "Forward I am heavy, but backward I am not. What am I?", "answer": "Ton" },
-  { "question": "A woman lives on the 20th floor but usually gets off at the 10th. Why?", "answer": "She is too short to reach the higher button" },
-  { "question": "A man rode into town on Friday, stayed 3 days, and left on Friday. How?", "answer": "His horse is named Friday" },
-
-  { "question": "A man stands on one side of a river, his dog on the other. The dog crosses without getting wet. How?", "answer": "The river is frozen" },
-  { "question": "What question can you never answer yes to truthfully?", "answer": "Are you asleep?" },
-  { "question": "A man was born in 1995 and died in 1990. How?", "answer": "Room numbers, not years" },
-  { "question": "Two coins total 30 cents and one is not a nickel. What are they?", "answer": "A quarter and a nickel" },
-  { "question": "A man pushes his car to a hotel and knows he is bankrupt. Why?", "answer": "Monopoly game" },
-  { "question": "A girl says yesterday I was 10 and next year I’ll be 13. How?", "answer": "Birthday is December 31" },
-
-  { "question": "A doctor says 'he is my son' but is not the father. How?", "answer": "The doctor is the mother" },
-  { "question": "A boat is full but no one is single. Why?", "answer": "Everyone is married" },
-  { "question": "A man is caught in rain but his hair stays dry. Why?", "answer": "He is bald" },
-  { "question": "A man drives in complete darkness but sees a woman. How?", "answer": "It is daytime" },
-
-  { "question": "You have 3 switches and 1 bulb. How do you find the correct switch?", "answer": "Use heat from bulb to identify" },
-  { "question": "A girl has as many brothers as sisters, but each brother has half as many brothers. How many siblings?", "answer": "4 sisters and 3 brothers" },
-
-  { "question": "A woman has three daughters, each with one brother. How many children?", "answer": "4" },
-  { "question": "You pass second place in a race. What place are you?", "answer": "Second" },
-  { "question": "Two trains meet. Which is closer to Station A?", "answer": "Same distance" },
-  { "question": "A farmer has 15 cows, all but 8 leave. How many remain?", "answer": "8" },
-
-  { "question": "Hotel $30 puzzle — where is the missing dollar?", "answer": "No dollar missing; math misdirection" },
-  { "question": "Take 3 pills every 30 minutes. How long do they last?", "answer": "1 hour" },
-  { "question": "Two fathers and two sons share 3 fish. How?", "answer": "Grandfather, father, son" },
-  { "question": "If you have me you want to share me, but if you share me you lose me. What am I?", "answer": "A secret" },
-  { "question": "5 birds on a fence, one is shot. How many remain?", "answer": "None" },
-
-  { "question": "Measure 4 gallons using 3 and 5 gallon jugs.", "answer": "Fill and transfer method" },
-  { "question": "Bridge crossing (1,2,7,10). Fastest time?", "answer": "17 minutes" },
-  { "question": "Mother is 21 years older than child, later 5x age. Where is father?", "answer": "Child not born yet" },
-  { "question": "3 mislabeled fruit boxes. One pick solves all. How?", "answer": "Pick from 'mixed' and deduce" },
-  { "question": "Square house with all sides facing south. Bear color?", "answer": "White (North Pole)" },
-  { "question": "Find heavier ball among 8 using 2 weighings.", "answer": "Divide and compare groups" },
-  { "question": "Two guards puzzle — what question?", "answer": "Ask what the other would say, choose opposite" },
-  { "question": "Clock loses 10 minutes per hour. What time shows at real 6 PM?", "answer": "5:00 PM" },
-
-  { "question": "You pass the last person in a race. What place are you?", "answer": "Impossible" },
-  { "question": "6 eggs, 6 people, one egg remains. How?", "answer": "Last takes basket" },
-  { "question": "Boy is 8, sister half his age. At 20?", "answer": "16" },
-  { "question": "Two players win equal games with no ties. How?", "answer": "Different opponents" },
-  { "question": "Father says son will never be taller. Why?", "answer": "Already taller" },
-  { "question": "Beggar returns $20 next day. Why?", "answer": "Change transaction" },
-  { "question": "Electric train — where does smoke go?", "answer": "No smoke" },
-  { "question": "9 coins, one heavier, 2 weighings.", "answer": "Weigh groups of 3 strategy" },
-  { "question": "Three people rush to sleeping person when phone rings. Why?", "answer": "Sleepwalking" },
-  { "question": "10 fish, 3 drown. How many left?", "answer": "10" },
-
-  { "question": "What has to be broken before you can use it?", "answer": "An egg" },
-  { "question": "I’m tall when I’m young, and I’m short when I’m old. What am I?", "answer": "A candle" },
-  { "question": "What month has 28 days?", "answer": "All of them" },
-  { "question": "What is full of holes but still holds water?", "answer": "A sponge" },
-  { "question": "What can you break without touching it?", "answer": "A promise" },
-  { "question": "What gets wet while drying?", "answer": "A towel" },
-  { "question": "What belongs to you but others use it more?", "answer": "Your name" },
-  { "question": "What can’t talk but replies when spoken to?", "answer": "An echo" },
-  { "question": "The more of it there is, the less you see. What is it?", "answer": "Darkness" },
-  { "question": "What can travel around the world while staying in one corner?", "answer": "A stamp" }
+  {
+    "question": "What gets bigger the more you take away?",
+    "answer": "A hole."
+  },
+  {
+    "question": "What can you hold in your right hand but not in your left?",
+    "answer": "Your left hand."
+  },
+  {
+    "question": "What has many keys but can’t open a single lock?",
+    "answer": "A piano."
+  },
+  {
+    "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "answer": "The letter M."
+  },
+  {
+    "question": "What has to be broken before you can use it?",
+    "answer": "An egg."
+  },
+  {
+    "question": "What can travel all around the world without leaving its corner?",
+    "answer": "A stamp."
+  },
+  {
+    "question": "The more of me there is, the less you can see. What am I?",
+    "answer": "Darkness."
+  },
+  {
+    "question": "What has four fingers and a thumb but is not alive?",
+    "answer": "A glove."
+  },
+  {
+    "question": "What gets wetter the more it dries?",
+    "answer": "A towel."
+  },
+  {
+    "question": "What has a neck but no head?",
+    "answer": "A bottle."
+  },
+  {
+    "question": "What can fill a room but takes up no space?",
+    "answer": "Light."
+  },
+  {
+    "question": "What has one eye but cannot see?",
+    "answer": "A needle."
+  },
+  {
+    "question": "What can’t talk but will always answer when spoken to?",
+    "answer": "An echo."
+  },
+  {
+    "question": "What has a face and two hands but no arms or legs?",
+    "answer": "A clock."
+  },
+  {
+    "question": "What is always in front of you but can’t be seen?",
+    "answer": "The future."
+  },
+  {
+    "question": "What can run but never walks, has a mouth but never talks?",
+    "answer": "A river."
+  },
+  {
+    "question": "What can you break without touching it?",
+    "answer": "A promise."
+  },
+  {
+    "question": "What begins with T, ends with T, and has T in it?",
+    "answer": "A teapot."
+  },
+  {
+    "question": "What kind of room has no doors or windows?",
+    "answer": "A mushroom."
+  },
+  {
+    "question": "What has words but never speaks?",
+    "answer": "A book."
+  },
+  {
+    "question": "What has a head and a tail but no body?",
+    "answer": "A coin."
+  },
+  {
+    "question": "What belongs to you, but other people use it more than you do?",
+    "answer": "Your name."
+  },
+  {
+    "question": "What kind of coat is best put on wet?",
+    "answer": "A coat of paint."
+  },
+  {
+    "question": "What can be seen once in a year, twice in a week, but never in a day?",
+    "answer": "The letter E."
+  },
+  {
+    "question": "What has an end but no beginning?",
+    "answer": "A stick."
+  },
+  {
+    "question": "What kind of band never plays music?",
+    "answer": "A rubber band."
+  },
+  {
+    "question": "What can you catch but never throw?",
+    "answer": "A cold."
+  },
+  {
+    "question": "What has a bottom at the top?",
+    "answer": "Your legs."
+  },
+  {
+    "question": "What is so fragile that saying its name breaks it?",
+    "answer": "Silence."
+  },
+  {
+    "question": "What can go up a chimney down, but cannot go down a chimney up?",
+    "answer": "An umbrella."
+  },
+  {
+    "question": "What goes up but never comes down?",
+    "answer": "Your age."
+  },
+  {
+    "question": "What has cities, but no houses; forests, but no trees; and water, but no fish?",
+    "answer": "A map."
+  },
+  {
+    "question": "What is easy to get into, but hard to get out of?",
+    "answer": "Trouble."
+  },
+  {
+    "question": "If two’s company and three’s a crowd, what are four and five?",
+    "answer": "Nine."
+  },
+  {
+    "question": "What comes down but never goes up?",
+    "answer": "Rain."
+  },
+  {
+    "question": "What has hands but cannot clap?",
+    "answer": "A clock."
+  },
+  {
+    "question": "What has teeth but cannot bite?",
+    "answer": "A comb."
+  },
+  {
+    "question": "What can you keep after giving it away?",
+    "answer": "Your word."
+  },
+  {
+    "question": "What has no life but can die?",
+    "answer": "A battery."
+  },
+  {
+    "question": "What can you hear but not touch or see?",
+    "answer": "Your voice."
+  },
+  {
+    "question": "A woman points to a man in a photograph and says, 'Brothers and sisters, I have none. But that man’s father is my father’s son.' Who is in the photograph?",
+    "answer": "Her son"
+  },
+  {
+    "question": "You walk into a room with a match, an oil lamp, a candle, and a fireplace. What do you light first?",
+    "answer": "The match"
+  },
+  {
+    "question": "A girl fell off a 20-foot ladder but didn’t get hurt. How?",
+    "answer": "She fell from the bottom step"
+  },
+  {
+    "question": "A man left home running, made three left turns, and returned home. Who was wearing a mask?",
+    "answer": "The catcher (baseball)"
+  },
+  {
+    "question": "A man shaves several times a day, yet still has a beard. How?",
+    "answer": "He is a barber"
+  },
+  {
+    "question": "Forward I am heavy, but backward I am not. What am I?",
+    "answer": "Ton"
+  },
+  {
+    "question": "A woman lives on the 20th floor but usually gets off at the 10th. Why?",
+    "answer": "She is too short to reach the higher button"
+  },
+  {
+    "question": "A man rode into town on Friday, stayed 3 days, and left on Friday. How?",
+    "answer": "His horse is named Friday"
+  },
+  {
+    "question": "A man stands on one side of a river, his dog on the other. The dog crosses without getting wet. How?",
+    "answer": "The river is frozen"
+  },
+  {
+    "question": "What question can you never answer yes to truthfully?",
+    "answer": "Are you asleep?"
+  },
+  {
+    "question": "A man was born in 1995 and died in 1990. How?",
+    "answer": "Room numbers, not years"
+  },
+  {
+    "question": "Two coins total 30 cents and one is not a nickel. What are they?",
+    "answer": "A quarter and a nickel"
+  },
+  {
+    "question": "A man pushes his car to a hotel and knows he is bankrupt. Why?",
+    "answer": "Monopoly game"
+  },
+  {
+    "question": "A girl says yesterday I was 10 and next year I’ll be 13. How?",
+    "answer": "Birthday is December 31"
+  },
+  {
+    "question": "A doctor says 'he is my son' but is not the father. How?",
+    "answer": "The doctor is the mother"
+  },
+  {
+    "question": "A boat is full but no one is single. Why?",
+    "answer": "Everyone is married"
+  },
+  {
+    "question": "A man is caught in rain but his hair stays dry. Why?",
+    "answer": "He is bald"
+  },
+  {
+    "question": "A man drives in complete darkness but sees a woman. How?",
+    "answer": "It is daytime"
+  },
+  {
+    "question": "You have 3 switches and 1 bulb. How do you find the correct switch?",
+    "answer": "Use heat from bulb to identify"
+  },
+  {
+    "question": "A girl has as many brothers as sisters, but each brother has half as many brothers. How many siblings?",
+    "answer": "4 sisters and 3 brothers"
+  },
+  {
+    "question": "A woman has three daughters, each with one brother. How many children?",
+    "answer": "4"
+  },
+  {
+    "question": "You pass second place in a race. What place are you?",
+    "answer": "Second"
+  },
+  {
+    "question": "Two trains meet. Which is closer to Station A?",
+    "answer": "Same distance"
+  },
+  {
+    "question": "A farmer has 15 cows, all but 8 leave. How many remain?",
+    "answer": "8"
+  },
+  {
+    "question": "Hotel $30 puzzle — where is the missing dollar?",
+    "answer": "No dollar missing; math misdirection"
+  },
+  {
+    "question": "Take 3 pills every 30 minutes. How long do they last?",
+    "answer": "1 hour"
+  },
+  {
+    "question": "Two fathers and two sons share 3 fish. How?",
+    "answer": "Grandfather, father, son"
+  },
+  {
+    "question": "If you have me you want to share me, but if you share me you lose me. What am I?",
+    "answer": "A secret"
+  },
+  {
+    "question": "5 birds on a fence, one is shot. How many remain?",
+    "answer": "None"
+  },
+  {
+    "question": "Measure 4 gallons using 3 and 5 gallon jugs.",
+    "answer": "Fill and transfer method"
+  },
+  {
+    "question": "Bridge crossing (1,2,7,10). Fastest time?",
+    "answer": "17 minutes"
+  },
+  {
+    "question": "Mother is 21 years older than child, later 5x age. Where is father?",
+    "answer": "Child not born yet"
+  },
+  {
+    "question": "3 mislabeled fruit boxes. One pick solves all. How?",
+    "answer": "Pick from 'mixed' and deduce"
+  },
+  {
+    "question": "Square house with all sides facing south. Bear color?",
+    "answer": "White (North Pole)"
+  },
+  {
+    "question": "Find heavier ball among 8 using 2 weighings.",
+    "answer": "Divide and compare groups"
+  },
+  {
+    "question": "Two guards puzzle — what question?",
+    "answer": "Ask what the other would say, choose opposite"
+  },
+  {
+    "question": "Clock loses 10 minutes per hour. What time shows at real 6 PM?",
+    "answer": "5:00 PM"
+  },
+  {
+    "question": "You pass the last person in a race. What place are you?",
+    "answer": "Impossible"
+  },
+  {
+    "question": "6 eggs, 6 people, one egg remains. How?",
+    "answer": "Last takes basket"
+  },
+  {
+    "question": "Boy is 8, sister half his age. At 20?",
+    "answer": "16"
+  },
+  {
+    "question": "Two players win equal games with no ties. How?",
+    "answer": "Different opponents"
+  },
+  {
+    "question": "Father says son will never be taller. Why?",
+    "answer": "Already taller"
+  },
+  {
+    "question": "Beggar returns $20 next day. Why?",
+    "answer": "Change transaction"
+  },
+  {
+    "question": "Electric train — where does smoke go?",
+    "answer": "No smoke"
+  },
+  {
+    "question": "9 coins, one heavier, 2 weighings.",
+    "answer": "Weigh groups of 3 strategy"
+  },
+  {
+    "question": "Three people rush to sleeping person when phone rings. Why?",
+    "answer": "Sleepwalking"
+  },
+  {
+    "question": "10 fish, 3 drown. How many left?",
+    "answer": "10"
+  },
+  {
+    "question": "I’m tall when I’m young, and I’m short when I’m old. What am I?",
+    "answer": "A candle"
+  },
+  {
+    "question": "What month has 28 days?",
+    "answer": "All of them"
+  },
+  {
+    "question": "What is full of holes but still holds water?",
+    "answer": "A sponge"
+  }
 ]
