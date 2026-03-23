@@ -3,7 +3,7 @@ let current = 0;
 
 async function loadRiddles() {
   try {
-    const res = await fetch('riddles.json');
+    const res = await fetch('questions.json');
 
     if (!res.ok) {
       throw new Error('Could not load riddles.json');
