@@ -3,7 +3,7 @@ let current = 0;
 
 async function loadPuzzles() {
   try {
-    const res = await fetch("logic-puzzles.json");
+    const res = await fetch("logic.json");
 
     if (!res.ok) {
       throw new Error("Could not load logic-puzzles.json");
